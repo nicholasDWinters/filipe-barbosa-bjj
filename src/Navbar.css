@@ -1,0 +1,43 @@
+
+#navbarNavAltMarkup a:hover {
+    
+    color: rgb(82, 233, 253);
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+#navbarNavAltMarkup a.active {
+    font-weight: bold;
+    font-size: 1.2em;
+    
+    color: rgb(82, 233, 253);
+    
+}
+
+#navbarNavAltMarkup a{
+color: rgb(212, 212, 212);
+}
+
+#brand {
+    font-size: 1.4em;
+    color:rgb(35, 167, 255);
+}
+
+button {
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: #212529;
+    border: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #212529;
+}
+
+.dropdown-item.active {
+    background-color: #212529;
+}

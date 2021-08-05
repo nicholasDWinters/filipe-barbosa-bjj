@@ -1,10 +1,10 @@
 import React from 'react';
-import './Home.css';
+import './Jumbo.css';
 
-const Home = () => {
+const Jumbo = () => {
     return (
         <div>
-            <div className='Home-jumbo'>
+            <div className='Jumbo-jumbo'>
                 <h1 className='display-4 ps-5 px-5'><b>Filipe Barbosa Brazilian Jiu Jitsu</b></h1>
             </div>
 
@@ -12,4 +12,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default Jumbo;
