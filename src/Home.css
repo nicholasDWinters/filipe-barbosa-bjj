@@ -1,0 +1,32 @@
+img {
+    max-height: 500px;
+  }
+  
+  .Home-jumbo {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+  }
+  
+  .Home-jumbo::before {
+    content: '';
+    background-image: url('https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/182502107_4221049481271506_3550057447248089104_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=a26aad&_nc_ohc=1Q3FHem6cToAX8Dh6xw&_nc_ht=scontent-msp1-1.xx&oh=2f1b60c883adacffc9ac6aa2c11c3ab5&oe=61116C25');
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: .30;
+  
+  }
+  
+  h1 {
+    position: relative;
+    text-align: center;
+    
+  }
