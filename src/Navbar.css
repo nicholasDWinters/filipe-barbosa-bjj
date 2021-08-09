@@ -1,8 +1,8 @@
 
 #navbarNavAltMarkup a:hover {
     
-    color: rgb(82, 233, 253);
-    font-size: 1.1em;
+    color:rgb(98, 189,250);
+    font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
     
@@ -12,16 +12,17 @@
     font-weight: bold;
     font-size: 1.2em;
     
-    color: rgb(82, 233, 253);
+    color:rgb(98, 189, 250);
     
 }
 
 #navbarNavAltMarkup a{
-color: rgb(212, 212, 212);
+color: rgb(255, 253, 253);
+font-size: 1.1em;
 }
 
 #brand {
-    font-size: 1.4em;
+    font-size: 1.5em;
     color:rgb(35, 167, 255);
 }
 
@@ -29,7 +30,8 @@ button {
     color: black;
 }
 
-.dropdown-menu {
+
+/* .dropdown-menu {
     background-color: #212529;
     border: none;
 }
@@ -40,4 +42,4 @@ button {
 
 .dropdown-item.active {
     background-color: #212529;
-}
+} */

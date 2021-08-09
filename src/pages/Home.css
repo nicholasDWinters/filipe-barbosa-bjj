@@ -1,0 +1,13 @@
+.Home-img {
+    border-radius: 10%;
+}
+
+.Home-img:hover {
+    opacity: .80;
+}
+
+
+.paragraph-col {
+    border-bottom: 1px solid rgb(98, 189, 250);
+    ;
+}
