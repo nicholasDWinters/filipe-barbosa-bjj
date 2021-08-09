@@ -10,18 +10,19 @@ const Navbar = () => {
 
         <nav className="Navbar navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div className="container-fluid">
-                <a className="navbar-brand me-5" id='brand' href="/">Filipe Barbosa BJJA</a>
+                <NavLink className='navbar-brand me-5' id='brand' exact to='/'>Filipe Barbosa BJJA</NavLink>
+
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
 
                     <ul className="navbar-nav me-auto">
-                        <NavLink className='nav-item me-5 nav-link' exact to='/about-us'>About Us</NavLink>
-                        <NavLink className='nav-item me-5 nav-link' exact to='/why-jj'>Why Jiu Jitsu?</NavLink>
-                        <NavLink className='nav-item me-5 nav-link' exact to='/classes'>Classes</NavLink>
-                        <NavLink className='nav-item me-5 nav-link' exact to='/schedule'>Schedule</NavLink>
-                        <NavLink className='nav-item me-5 nav-link' exact to='/seminars-promotions'>Seminars / Promotions</NavLink>
+                        <NavLink className='nav-item me-4 nav-link' exact to='/about-us'>About Us</NavLink>
+                        <NavLink className='nav-item me-4 nav-link' exact to='/why-jj'>Why Jiu Jitsu?</NavLink>
+                        <NavLink className='nav-item me-4 nav-link' exact to='/classes'>Classes</NavLink>
+                        <NavLink className='nav-item me-4 nav-link' exact to='/schedule'>Schedule</NavLink>
+                        <NavLink className='nav-item me-4 nav-link' exact to='/seminars-promotions'>Seminars / Promotions</NavLink>
                         <NavLink className='nav-item nav-link' exact to='/gallery'>Gallery</NavLink>
 
                     </ul>

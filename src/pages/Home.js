@@ -7,7 +7,7 @@ const Home = () => {
         <div className='container'>
             <div className='row align-items-center mt-5'>
                 <div className='col-lg-6 paragraph-col'>
-                    <h1 className='mt-5 mb-4'>TOP TIER JIU JITSU INSTRUCTION</h1>
+                    <h1 className='mb-4'>TOP TIER JIU JITSU INSTRUCTION</h1>
                     <p className='paragraph'>Filipe Barbosa Brazilian Jiu Jitsu Academy was first opened in 2009 and has been serving the Baraboo community since then. Since its inception, it has grown in both attendance and facility. The gym now offers more than 15 classes per week between adult and children’s classes.  These classes include Brazilian Jiu Jitsu, Muay Thai, and Cardio Kickboxing. Classes are designed for participants of all levels. Further, the gym now offers periodical women’s self defense seminars and helps train several local law enforcement agencies.</p></div>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-5'>
@@ -17,7 +17,7 @@ const Home = () => {
 
             <div className='row align-items-center mt-5'>
                 <div className='col-lg-6 paragraph-col'>
-                    <h1 className='mt-5 mb-4'>OUR FACILITY</h1>
+                    <h1 className='mb-4'>OUR FACILITY</h1>
                     <p className='paragraph'>Opening in 2020, our awesome new training facility is conveniently located 5 minutes from downtown Baraboo, and only a 15 minute drive from Sauk City! The beautifully designed gym features brand new FUJI training mats and punching bags, providing plenty of space for our ever-growing academy.</p></div>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-5'>
@@ -27,7 +27,7 @@ const Home = () => {
 
             <div className='row align-items-center mt-5'>
                 <div className='col-lg-6 paragraph-col'>
-                    <h1 className='mt-5 mb-4'>YOUR NEW HOME</h1>
+                    <h1 className='mb-4'>YOUR NEW HOME</h1>
                     <p className='paragraph'>Become apart of our jiu jitsu family! Meet new friends, learn to protect yourself and your family, and be more confident by learning martial arts from Owner & Head Instructor, Filipe Barbosa.</p></div>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-5'>
