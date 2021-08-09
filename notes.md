@@ -3,6 +3,7 @@
 - jumbotron with either group picture / opacity, or video autoplays of highlights of jiu jitsu, maybe need to get some video?
 - maybe include most recent technique video that Filipe has posted?
 - can we get like a sponsored by the sauk police department kind of logo on here?
+- add a cool think footer to the bottom, with links to other pages on the site, Winters web dev, Jiu jitsu source
 
 ## ABOUT
 - picture with paragraph of instructors - Filipe, Cristiano, Will, Dylan?
