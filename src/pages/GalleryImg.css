@@ -1,0 +1,7 @@
+.Gallery-img {
+    border-radius: 10%;
+}
+
+.Gallery-img:hover {
+    opacity: .80;
+}

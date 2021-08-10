@@ -39,7 +39,7 @@ const Classes = () => {
     },
     {
         type: 'MMA',
-        description: '',
+        description: 'Mixed Martial Arts classes are more fight-oriented, with instruction geared towards boxing, muay thai, jiu jitsu, and wrestling techniques. Classes typically involve a short warmup or stretch, followed by technique instruction with drilling to follow. Students gain a further understanding of how to defend themselves in a combative situation.',
         imageURL: 'https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/200905331_4114568331919622_8510669467668111477_n.jpg?_nc_cat=103&ccb=1-4&_nc_sid=a26aad&_nc_ohc=irrFWoij33oAX-d4M8W&_nc_ht=scontent-msp1-1.xx&oh=7d6b64330d09d2a71024b6a40d31c5df&oe=6138C48D',
         videoURL: null,
         title: 'mma training',
@@ -47,7 +47,7 @@ const Classes = () => {
     },
     {
         type: 'COMPETITION TRAINING',
-        description: '',
+        description: `Many of our students compete at several tournaments per year. Competition training starts with an hour of conditioning (circuit training workout), followed by competition-based instruction and situational drilling or sparring.`,
         imageURL: null,
         videoURL: 'https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2F190576607652167%2Fvideos%2F4105267972849658%2F&show_text=false&width=560&t=0',
         title: 'competition training',
