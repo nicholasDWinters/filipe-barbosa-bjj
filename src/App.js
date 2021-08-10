@@ -5,6 +5,7 @@ import React from 'react';
 import About from './pages/About';
 import Home from './pages/Home';
 import Classes from './pages/Classes';
+import Footer from './Footer';
 import { Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route exact path='/contact'><Contact /></Route> */}
           <Route exact path='/'><Home /></Route>
         </Switch>
+        <Footer />
       </div>
 
     </div>
