@@ -30,6 +30,10 @@ https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/191939429_4111738108869311_7076
 -facility
 https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/126174665_3534316756611452_805468573915186833_n.jpg?_nc_cat=108&ccb=1-4&_nc_sid=a26aad&_nc_ohc=c1imMTwITMAAX8IZM4e&_nc_ht=scontent-msp1-1.xx&oh=d407bba80ee78e528192367220fac834&oe=6137F73C
 
+-cool stoic pic of filipe
+https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/163627729_3869155886460869_6985019458901482877_n.jpg?_nc_cat=107&ccb=1-4&_nc_sid=a26aad&_nc_ohc=jBxWlEa0Kd0AX8ewHyB&_nc_ht=scontent-msp1-1.xx&oh=6d6efbcb33e5fedad3f555da2fd9c0dd&oe=613782C0
+
+
 # Seminars
 - women's self defense
 https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/228770541_4268440049865782_3827715661685017254_n.jpg?_nc_cat=108&ccb=1-4&_nc_sid=a26aad&_nc_ohc=ne0q5niV6GIAX_ZaUOf&_nc_ht=scontent-msp1-1.xx&oh=e52273d285836764dc82ae2130c4d4dd&oe=6116907B

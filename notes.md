@@ -16,6 +16,7 @@
 ## CLASSES
 - grid layout of classes with description, including class times
 - women's kickboxing, kids classes, adult gi, adult nogi, mma, competition/endurance
+- maybe make a class component with props, so not re typing everything
 - link to class schedule at top and bottom
 
 ## SCHEDULE
