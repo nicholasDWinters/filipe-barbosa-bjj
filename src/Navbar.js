@@ -27,8 +27,10 @@ const Navbar = () => {
 
                     </ul>
                     <NavLink className='nav-link nav-item ps-0 me-3' exact to='/contact'>Contact</NavLink>
-                    <a className='me-4' href='https://www.facebook.com/Filipe-Barbosa-Jiu-Jitsu-AcademyCRBJJ-190576607652167' target='_blank' rel='noreferrer'><img src={facebook} alt="facebook" width="30" height="30" class="d-inline-block align-text-top"></img></a>
-                    <a className='me-4' href='https://www.instagram.com/filipebarbosabjj/?hl=en' target='_blank' rel='noreferrer'><img src={instagram} alt="instagram" width="30" height="30" class="d-inline-block align-text-top"></img></a>
+                    {/* <a className='me-4' href='https://www.facebook.com/Filipe-Barbosa-Jiu-Jitsu-AcademyCRBJJ-190576607652167' target='_blank' rel='noreferrer'><img src={facebook} alt="facebook" width="30" height="30" className="d-inline-block align-text-top"></img></a>
+                    <a className='me-4' href='https://www.instagram.com/filipebarbosabjj/?hl=en' target='_blank' rel='noreferrer'><img src={instagram} alt="instagram" width="30" height="30" className="d-inline-block align-text-top"></img></a> */}
+
+                    <div className="fb-messengermessageus" messenger_app_id='301920271682228' page_id='190576607652167' color="blue"></div>
                 </div>
             </div>
         </nav>

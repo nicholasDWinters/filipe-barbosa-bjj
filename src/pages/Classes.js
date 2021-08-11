@@ -56,7 +56,7 @@ const Classes = () => {
     return (
         <div className='container'>
             <h1 className='mt-4 display-3'>Classes</h1>
-            {classes.map(clss => <Class clss={clss} />)}
+            {classes.map(clss => <Class clss={clss} key={clss.type} />)}
         </div>
 
     )

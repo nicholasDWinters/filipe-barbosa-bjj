@@ -7,7 +7,7 @@ const Gallery = () => {
         <div className='container'>
             <div className='row align-items-center justify-content-evenly'>
 
-                {urls.map(url => <GalleryImg url={url} />)}
+                {urls.map(url => <GalleryImg url={url} key={url} />)}
             </div>
         </div>
     )
