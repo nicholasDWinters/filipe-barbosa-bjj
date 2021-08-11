@@ -8,7 +8,7 @@ import facebook from './images/facebook_icon.png';
 const Navbar = () => {
     return (
 
-        <nav className="Navbar navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <nav className="Navbar navbar navbar-expand-xl navbar-dark bg-dark sticky-top">
             <div className="container-fluid">
                 <NavLink className='navbar-brand me-5' id='brand' exact to='/'>Filipe Barbosa BJJA</NavLink>
 

@@ -31,7 +31,7 @@ const Classes = () => {
     },
     {
         type: 'WOMENS KICKBOXING',
-        description: '',
+        description: 'A group fitness class that combines martial arts techniques with fast paced cardio. Learn to defend yourself, and get a great workout. Never boring. Never the same.',
         imageURL: 'https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/196744480_1176990649486018_8400221441756176404_n.jpg?_nc_cat=111&ccb=1-4&_nc_sid=8bfeb9&_nc_ohc=x0PFcOk4tdcAX9Ke91X&_nc_ht=scontent-msp1-1.xx&oh=6d6b11a9982a6bba7303453101d969b1&oe=6136C7C7',
         videoURL: null,
         title: 'womens kickboxing',

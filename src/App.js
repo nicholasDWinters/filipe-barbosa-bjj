@@ -6,6 +6,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Classes from './pages/Classes';
 import Gallery from './pages/Gallery';
+import Contact from './pages/Contact';
 import SeminarsPromotions from './pages/SeminarsPromotions';
 import Footer from './Footer';
 import { Route, Switch } from 'react-router-dom';
@@ -23,7 +24,7 @@ function App() {
           {/* <Route exact path='/schedule'><Schedule /></Route> */}
           <Route exact path='/seminars-promotions'><SeminarsPromotions /></Route>
           <Route exact path='/gallery'><Gallery /></Route>
-          {/* <Route exact path='/contact'><Contact /></Route> */}
+          <Route exact path='/contact'><Contact /></Route>
           <Route exact path='/'><Home /></Route>
         </Switch>
         <Footer />

@@ -13,7 +13,7 @@ const Class = ({ clss }) => {
             <div className='col-lg-5'>
                 {clss.imageURL ? <img className='Classes-img img-fluid' src={clss.imageURL} alt={clss.title}></img> :
 
-                    <iframe title={clss.title} src={clss.videoURL} width="560" height={clss.videoHeight} style={{ border: 'none', overflow: 'hidden' }} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                    <iframe title={clss.title} src={clss.videoURL} width="100%" height={clss.videoHeight} style={{ border: 'none', overflow: 'hidden' }} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                 }
 
 
