@@ -6,7 +6,7 @@ import API_KEY from '../api';
 import './Contact.css';
 
 
-const Contact = ({ click }) => {
+const Contact = () => {
 
     const KEY = process.env.API_KEY || API_KEY;
     let url = `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJgxb4aiRqB4gRS7i_qofElzA&key=${KEY}`;
@@ -29,6 +29,7 @@ const Contact = ({ click }) => {
                         </div>
                     </div> */}
                     <a href='https://www.messenger.com/t/190576607652167/?messaging_source=source%3Apages%3Amessage_shortlink' className='btn btn-outline-primary mt-3' target='_blank' rel='noreferrer'><img src={messenger} alt="messenger" width="45" height="45" className="d-inline-block me-1"></img>Chat with us on Messenger</a>
+
                 </div>
                 <div className='col-lg-5'>
                     <iframe title='map around academy'

@@ -15,7 +15,7 @@ const Classes = () => {
     },
     {
         type: 'NOGI JIU JITSU',
-        description: `Jiu Jitsu without the grips! A greater emphasis is placed on wrestling in this aspect of jiu jitsu, as NOGI presents a challenge in establishing control over your partner. Each NOGI class starts with a 10 minute warm up, followed by technique instruction, drilling, and 'rolling' or sparring.`,
+        description: `Jiu Jitsu without the grips! A greater emphasis is placed on wrestling in this aspect of Jiu Jitsu, as NOGI presents a challenge in establishing control over your partner. Each NOGI class starts with a 10 minute warm up, followed by technique instruction, drilling, and 'rolling' or sparring.`,
         imageURL: `https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/162545349_3862461707130287_2182753912345385417_n.jpg?_nc_cat=102&ccb=1-4&_nc_sid=a26aad&_nc_ohc=5IFEewFEz8YAX9OTzPK&tn=toufJ2uBatHThr-7&_nc_ht=scontent-msp1-1.xx&oh=f1c888ff27344762d2ccdf0f281b80ca&oe=6136B620`,
         videoURL: null,
         title: 'nogi class',
@@ -23,7 +23,7 @@ const Classes = () => {
     },
     {
         type: 'KID - JITSU',
-        description: 'An awesome way for your child to learn self defense, self confidence, and self respect! Each class focuses on jiu jitsu technique and movements, all while getting a ton of exercise! Respect, perseverance, honesty, and humilty are the core values we instill in every student.',
+        description: 'An awesome way for your child to learn self defense, self confidence, and self respect! Each class focuses on Jiu Jitsu technique and movements, all while getting a ton of exercise! Respect, perseverance, honesty, and humilty are the core values we instill in every student.',
         imageURL: null,
         videoURL: 'https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2F190576607652167%2Fvideos%2F169960754549410%2F&show_text=false&width=560&t=0',
         title: 'kids class',
@@ -39,7 +39,7 @@ const Classes = () => {
     },
     {
         type: 'MMA',
-        description: 'Mixed Martial Arts classes are more fight-oriented, with instruction geared towards boxing, muay thai, jiu jitsu, and wrestling techniques. Classes typically involve a short warmup or stretch, followed by technique instruction with drilling to follow. Students gain a further understanding of how to defend themselves in a combative situation.',
+        description: 'Mixed Martial Arts classes are more fight-oriented, with instruction geared towards Muay Thai, Jiu Jitsu, kickboxing, and wrestling techniques. Classes typically involve a short warmup or stretch, followed by technique instruction with drilling to follow. Students gain a further understanding of how to defend themselves in a combative situation.',
         imageURL: 'https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/200905331_4114568331919622_8510669467668111477_n.jpg?_nc_cat=103&ccb=1-4&_nc_sid=a26aad&_nc_ohc=irrFWoij33oAX-d4M8W&_nc_ht=scontent-msp1-1.xx&oh=7d6b64330d09d2a71024b6a40d31c5df&oe=6138C48D',
         videoURL: null,
         title: 'mma training',
