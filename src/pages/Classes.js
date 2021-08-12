@@ -7,7 +7,7 @@ const Classes = () => {
 
     let classes = [{
         type: 'GI JIU JITSU',
-        description: `The foundation of Brazilian Jiu Jitsu. Each GI class starts off with a 10 minute warm-up, followed by technique instruction. Beginner classes involve instruction based around self-defense and basic techniques. Advanced classes typically showcase a new technique, followed by 'rolling' or light sparring with a partner.`,
+        description: `The foundation of Brazilian Jiu Jitsu. Each GI class starts off with a 10 minute warm-up, followed by technique instruction. Fundamentals classes involve instruction based around self-defense and basic techniques. Advanced classes typically showcase a new technique, followed by 'rolling' or light sparring with a partner.`,
         imageURL: null,
         videoURL: 'https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2F190576607652167%2Fvideos%2F3856199821089809%2F&show_text=false&width=560&t=0',
         title: 'gi drilling',
@@ -22,7 +22,7 @@ const Classes = () => {
         videoHeight: null
     },
     {
-        type: 'KIDS JIU JITSU',
+        type: 'KID - JITSU',
         description: 'An awesome way for your child to learn self defense, self confidence, and self respect! Each class focuses on jiu jitsu technique and movements, all while getting a ton of exercise! Respect, perseverance, honesty, and humilty are the core values we instill in every student.',
         imageURL: null,
         videoURL: 'https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2F190576607652167%2Fvideos%2F169960754549410%2F&show_text=false&width=560&t=0',
@@ -44,14 +44,6 @@ const Classes = () => {
         videoURL: null,
         title: 'mma training',
         videoHeight: null
-    },
-    {
-        type: 'COMPETITION TRAINING',
-        description: `Many of our students compete at several tournaments per year. Competition training starts with an hour of conditioning (circuit training workout), followed by competition-based instruction and situational drilling or sparring.`,
-        imageURL: null,
-        videoURL: 'https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2F190576607652167%2Fvideos%2F4105267972849658%2F&show_text=false&width=560&t=0',
-        title: 'competition training',
-        videoHeight: 315
     }]
     return (
         <div className='container'>
