@@ -29,11 +29,11 @@ const WhyJJ = () => {
 
             <div className='row mt-5 justify-content-center align-items-center'>
 
-                <div className='col-lg-5 ps-5'>
+                <div className='col-lg-5 ps-3'>
                     {reasons.slice(0, 2).map(reason => <Reason key={reason.reason} reason={reason} />)}
 
                 </div>
-                <div className='col-lg-5 ps-5'>
+                <div className='col-lg-5 ps-3'>
 
                     {images.slice(0, 1).map(image => <img key={image} className='img-fluid Gallery-img mb-3' src={image} alt='jiu jitsu'></img>)}
 
@@ -44,11 +44,11 @@ const WhyJJ = () => {
 
             <div className='row mt-2 justify-content-center align-items-center'>
 
-                <div className='col-lg-5 ps-5'>
+                <div className='col-lg-5 ps-3'>
                     {reasons.slice(2).map(reason => <Reason key={reason.reason} reason={reason} />)}
 
                 </div>
-                <div className='col-lg-5 ps-5'>
+                <div className='col-lg-5 ps-3'>
 
                     {images.slice(1).map(image => <img key={image} className='img-fluid Gallery-img mb-3' src={image} alt='jiu jitsu'></img>)}
 
@@ -60,7 +60,7 @@ const WhyJJ = () => {
             <div className='row mt-5 justify-content-center align-items-center'>
 
 
-                <div className='col-lg-5 ps-5'>
+                <div className='col-lg-5 ps-3'>
                     <div>
                         <h2 className=''>WHITNEY SAYS...</h2>
                         <h5 className='text-muted mb-4 about paragraph'>'I started taking Jiu Jitsu classes to take on a new physical challenge after doing kickboxing for a year, and also knowing it is a great form of self defense. I continue to practice because it is an incredible feeling to face challenges in every class and come out stronger on the other side. Jiu-Jitsu has helped me build confidence and strength that I’m not sure I would have found elsewhere.'</h5>
@@ -79,7 +79,7 @@ const WhyJJ = () => {
 
             </div >
             <div className='row mt-5 justify-content-center align-items-center'>
-                <div className='col-lg-5 ps-5'>
+                <div className='col-lg-5 ps-3'>
                     <div>
                         <h2 className=''>BARRY SAYS...</h2>
                         <h5 className='text-muted mb-4 about paragraph'>'I practice Brazilian Jiu Jitsu for many reasons. The pure challenge, fitness, self defense purposes, wanting to be a ninja. But probably most importantly for the positive lifestyle changes it manifests in all areas of your life that I feel many people may need.'</h5>
@@ -93,7 +93,7 @@ const WhyJJ = () => {
             </div >
 
             <div className='row mt-5 justify-content-center align-items-center'>
-                <div className='col-lg-5 ps-5'>
+                <div className='col-lg-5 ps-3'>
                     <div>
                         <h2 className=''>RANDY SAYS...</h2>
                         <h5 className='text-muted mb-4 about paragraph'>'Jiu Jitsu has made me a better husband, a better friend, a better co-worker, and an overall better person. The benefits are just as much mental as they are physical. This is a martial art that will make you a better version of the person you were before you started.

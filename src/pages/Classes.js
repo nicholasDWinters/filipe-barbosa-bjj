@@ -27,7 +27,7 @@ const Classes = () => {
         imageURL: null,
         videoURL: 'https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2F190576607652167%2Fvideos%2F169960754549410%2F&show_text=false&width=560&t=0',
         title: 'kids class',
-        videoHeight: 420
+        videoHeight: 375
     },
     {
         type: 'WOMENS KICKBOXING',
