@@ -14,7 +14,7 @@ const SeminarsPromotions = () => {
                 <div className='col-lg-1'></div>
                 <div className='col-lg-5'>
 
-                    <img className='Classes-img img-fluid' src='https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/233256727_4254143174628803_8082353878989537867_n.jpg?_nc_cat=108&ccb=1-4&_nc_sid=a26aad&_nc_ohc=jEIKa2iJeWMAX8H29X8&_nc_ht=scontent-msp1-1.xx&oh=070689b3ee7767d58883d1e986771cf8&oe=61164E9D' alt='guillotine seminar'></img>
+                    <img className='Classes-img img-fluid' src='https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/233256727_4254143174628803_8082353878989537867_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=a26aad&_nc_ohc=bQAJLLxJ9WkAX_XNR0i&_nc_ht=scontent-msp1-1.xx&oh=c8771cbd879d38945d14fb9a4a111946&oe=611C3D5D' alt='guillotine seminar'></img>
 
                 </div>
                 <div className='col-lg-1'></div>
@@ -29,7 +29,7 @@ const SeminarsPromotions = () => {
 
                 <div className='col-lg-6'>
 
-                    <img className='Classes-img img-fluid' src='https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/228770541_4268440049865782_3827715661685017254_n.jpg?_nc_cat=108&ccb=1-4&_nc_sid=a26aad&_nc_ohc=ne0q5niV6GIAX_ZaUOf&_nc_ht=scontent-msp1-1.xx&oh=e52273d285836764dc82ae2130c4d4dd&oe=6116907B' alt='womens self defense group pic'></img>
+                    <img className='Classes-img img-fluid' src='https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/228770541_4268440049865782_3827715661685017254_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=a26aad&_nc_ohc=Fq0cLQ1Fm_kAX-dut16&_nc_ht=scontent-msp1-1.xx&oh=446709c1954e94639a7ce790e31f554c&oe=611C7F3B' alt='womens self defense group pic'></img>
                 </div>
                 <div className='col-lg-1'></div>
             </div>
@@ -42,7 +42,7 @@ const SeminarsPromotions = () => {
                 <div className='col-lg-1'></div>
                 <div className='col-lg-5'>
 
-                    <img className='Classes-img img-fluid' src='https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/229130450_4239955289380925_7834398021083067640_n.jpg?_nc_cat=105&ccb=1-4&_nc_sid=a26aad&_nc_ohc=S-mLmcWk_rIAX-Qx8dR&_nc_ht=scontent-msp1-1.xx&oh=5db3d5445687920385bab68343b234a1&oe=6116387A' alt='adopt a cop'></img>
+                    <img className='Classes-img img-fluid' src='https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/229130450_4239955289380925_7834398021083067640_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=a26aad&_nc_ohc=dx9D_oEFmh8AX-1P2a3&_nc_ht=scontent-msp1-1.xx&oh=eac19977340e8a3bb6573500e987f923&oe=611C273A' alt='adopt a cop'></img>
 
                 </div>
                 <div className='col-lg-1'></div>
