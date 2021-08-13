@@ -82,7 +82,7 @@ const WhyJJ = () => {
                 <div className='col-lg-5 ps-5'>
                     <div>
                         <h2 className=''>BARRY SAYS...</h2>
-                        <h5 className='text-muted mb-4 about paragraph'>'I started taking Jiu Jitsu classes to take on a new physical challenge after doing kickboxing for a year, and also knowing it is a great form of self defense. I continue to practice because it is an incredible feeling to face challenges in every class and come out stronger on the other side. Jiu-Jitsu has helped me build confidence and strength that I’m not sure I would have found elsewhere.'</h5>
+                        <h5 className='text-muted mb-4 about paragraph'>'I practice Brazilian Jiu Jitsu for many reasons. The pure challenge, fitness, self defense purposes, wanting to be a ninja. But probably most importantly for the positive lifestyle changes it manifests in all areas of your life that I feel many people may need.'</h5>
                     </div>
                 </div>
                 <div className='col-lg-1'></div>
@@ -92,7 +92,7 @@ const WhyJJ = () => {
                 <div className='col-lg-1'></div>
             </div >
 
-            <div className='row mt-5 justify-content-center align-items-center'>
+            {/* <div className='row mt-5 justify-content-center align-items-center'>
                 <div className='col-lg-5 ps-5'>
                     <div>
                         <h2 className=''>RANDY SAYS...</h2>
@@ -104,7 +104,7 @@ const WhyJJ = () => {
                     <img className='img-fluid mb-3 Gallery-img' style={{ borderRadius: '50%' }} src='https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/218434461_6625849627440876_1870866580307788752_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=SLfEnwHAyKcAX-BcSn0&tn=-YeMD0LfSsy7IauL&_nc_ht=scontent-msp1-1.xx&oh=76ee9f954f83a37d3e4f44df29d5f561&oe=613C3831' alt='mike'></img>
                 </div>
                 <div className='col-lg-1'></div>
-            </div >
+            </div > */}
 
 
         </div >
