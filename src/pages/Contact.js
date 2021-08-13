@@ -8,9 +8,9 @@ import './Contact.css';
 
 const Contact = () => {
 
-    // const KEY = process.env.API_KEY || API_KEY;
+    const KEY = process.env.API_KEY || API_KEY;
     // const KEY = process.env.API_KEY;
-    let url = `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJgxb4aiRqB4gRS7i_qofElzA&key=AIzaSyD9giCuj5YDvTNXtg9hRXOya-NQIEivcsY`;
+    let url = `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJgxb4aiRqB4gRS7i_qofElzA&key=${KEY}`;
 
     return (
         <div className='container'>
