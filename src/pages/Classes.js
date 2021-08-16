@@ -8,10 +8,10 @@ const Classes = () => {
     let classes = [{
         type: 'GI JIU JITSU',
         description: `The foundation of Brazilian Jiu Jitsu. Each GI class starts off with a 10 minute warm-up, followed by technique instruction. Fundamentals classes involve instruction based around self-defense and basic techniques. Advanced classes typically showcase a new technique, followed by 'rolling' or light sparring with a partner.`,
-        imageURL: null,
-        videoURL: 'https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2F190576607652167%2Fvideos%2F3856199821089809%2F&show_text=false&width=560&t=0',
-        title: 'gi drilling',
-        videoHeight: 315
+        imageURL: 'https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/199855222_4117296518313470_2047035072510767705_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=a26aad&_nc_ohc=buCaFDIsytcAX-7aWMw&_nc_ht=scontent-msp1-1.xx&oh=18278515958fc7415d1c57b5683bb955&oe=614175F4',
+        videoURL: null,
+        title: 'gi class',
+        videoHeight: null
     },
     {
         type: 'NOGI JIU JITSU',
@@ -24,10 +24,10 @@ const Classes = () => {
     {
         type: 'KID - JITSU',
         description: 'An awesome way for your child to learn self defense, self confidence, and self respect! Each class focuses on Jiu Jitsu technique and movements, all while getting a ton of exercise! Respect, perseverance, honesty, and humilty are the core values we instill in every student.',
-        imageURL: null,
-        videoURL: 'https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2F190576607652167%2Fvideos%2F169960754549410%2F&show_text=false&width=560&t=0',
+        imageURL: 'https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/181828857_3988005467909243_8566799133568126548_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=a26aad&_nc_ohc=GXzUmVm-rtAAX-QD54V&_nc_ht=scontent-msp1-1.xx&oh=ede7b5a13a629c7ce68221e6c9a4ab0f&oe=6141159E',
+        videoURL: null,
         title: 'kids class',
-        videoHeight: 375
+        videoHeight: null
     },
     {
         type: 'WOMENS KICKBOXING',

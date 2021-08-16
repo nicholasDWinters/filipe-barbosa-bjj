@@ -107,6 +107,21 @@ const WhyJJ = () => {
                 </div>
                 <div className='col-lg-1'></div>
             </div >
+            <div className='row mt-5 justify-content-center align-items-center'>
+                <div className='col-lg-5 ps-3'>
+                    <div>
+                        <h2 className=''>MIKE SAYS...</h2>
+                        <h5 className='text-muted mb-4 about paragraph'>'I started Jiu Jitsu because I was getting out of shape and overweight. I took martial arts when I was younger, so I thought be good to get back into it. Well more than 2 years later, still going strong, lost 30 pounds since I started, and have been able to stay in good shape. On top of it, I love the mental challenge (physical chess match) it provides. It is a challenge, but well worth it. Furthermore, I enjoy it so much, I wanted to involve my daughter and got her enrolled.
+                            <br></br><br></br>
+                            Professor Filipe is an excellent instructor. He is always willing to push you to new limits, but he also has his gentle side to support you. Lastly, he loves answering the many questions I ask of him.'</h5>
+                    </div>
+                </div>
+                <div className='col-lg-1'></div>
+                <div className='col-lg-3'>
+                    <img className='img-fluid mb-3 Gallery-img' style={{}} src='https://scontent-msp1-1.xx.fbcdn.net/v/t1.18169-9/20621203_10209702149022886_667493836088780805_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=0debeb&_nc_ohc=noNWWCFyJJMAX9yg9Gz&_nc_ht=scontent-msp1-1.xx&oh=4d4a56254336f27a2715cc00bae5d476&oe=61402713' alt='mike'></img>
+                </div>
+                <div className='col-lg-1'></div>
+            </div >
 
 
         </div >
