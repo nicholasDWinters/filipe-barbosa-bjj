@@ -14,7 +14,7 @@ img {
   
   .Jumbo-jumbo::before {
     content: '';
-    background-image: url('https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/182502107_4221049481271506_3550057447248089104_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=a26aad&_nc_ohc=71NwMGAV-0MAX_GAP13&tn=8nlHpU673dpsS3Dw&_nc_ht=scontent-msp1-1.xx&oh=b70abde104e82ed5f8f327334bcbd2d1&oe=611B4F65');
+    background-image: url('./images/cleanGym.jpg');
     background-size: cover;
     position: absolute;
     background-position: 50% 44%;
