@@ -2,8 +2,19 @@ import React from 'react';
 import '../App.css';
 import Reason from './Reason';
 import './GalleryImg.css';
+import selfDefenseReason from '../images/selfDefenseReason.jpg';
+import fitnessReason from '../images/fitnessReason.jpg';
+import whitneyHeadshot from '../images/whitneyHeadshot.jpg';
+import barryHeadshot from '../images/barryHeadshot.jpg';
+import randyHeadshot from '../images/randyHeadshot.jpg';
+import mikeHeadshot from '../images/mikeHeadshot.jpg';
+
 
 const WhyJJ = () => {
+    const whitney = `${whitneyHeadshot}`;
+    const barry = `${barryHeadshot}`;
+    const randy = `${randyHeadshot}`;
+    const mike = `${mikeHeadshot}`;
     const reasons = [
         {
             'reason': 'SELF-DEFENSE',
@@ -22,7 +33,7 @@ const WhyJJ = () => {
             'description': 'Be yourself and make lifelong friends. Welcome, this is your 2nd family.'
         }
     ];
-    const images = ['https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/122578254_3455828431126952_1206103044608707660_n.jpg?_nc_cat=101&ccb=1-4&_nc_sid=a26aad&_nc_ohc=rfdfQpT69ycAX987Rpx&_nc_ht=scontent-msp1-1.xx&oh=b70da84754b2c83ba2e026b976efb780&oe=613C5935', 'https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/131707923_3603690206340773_7355919526087858945_n.jpg?_nc_cat=108&ccb=1-4&_nc_sid=a26aad&_nc_ohc=Ql_nCYbnXd0AX_qGjAv&_nc_ht=scontent-msp1-1.xx&oh=d5cf8083efbac7696f25399b0240d36d&oe=613BF20D']
+    const images = [`${selfDefenseReason}`, `${fitnessReason}`]
     return (
         <div className='container'>
             <h1 className='mt-4 display-3'>Top Reasons to Practice Jiu Jitsu</h1>
@@ -70,7 +81,7 @@ const WhyJJ = () => {
                 </div>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-3'>
-                    <img className='img-fluid mb-3 Gallery-img' style={{}} src='https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/189396022_10159588564563179_6998891703734069289_n.jpg?_nc_cat=101&ccb=1-4&_nc_sid=730e14&_nc_ohc=KUtFjpV_kowAX-ichgx&_nc_ht=scontent-msp1-1.xx&oh=92c14538f94ca30564ef3a80e97c74ab&oe=613AC063' alt='whitney'></img>
+                    <img className='img-fluid mb-3 Gallery-img' style={{}} src={whitney} alt='whitney'></img>
 
 
                 </div>
@@ -87,7 +98,7 @@ const WhyJJ = () => {
                 </div>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-3'>
-                    <img className='img-fluid mb-3 Gallery-img' style={{}} src='https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/227684012_4560876480590169_3757765911221557891_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Q_flL17ghC0AX86o3E_&_nc_ht=scontent-msp1-1.xx&oh=4a126d7cfd150a80ed0ca0d2a2a4d0e2&oe=613D663D' alt='barry'></img>
+                    <img className='img-fluid mb-3 Gallery-img' style={{}} src={barry} alt='barry'></img>
                 </div>
                 <div className='col-lg-1'></div>
             </div >
@@ -103,7 +114,7 @@ const WhyJJ = () => {
                 </div>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-3'>
-                    <img className='img-fluid mb-3 Gallery-img' style={{}} src='https://scontent-msp1-1.xx.fbcdn.net/v/t1.6435-9/218717323_6616094821749690_1111783309356526393_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=7My74yUk8PgAX80T5OO&_nc_ht=scontent-msp1-1.xx&oh=54986915772b94faaf3be3861f5ff80a&oe=613BBDDA' alt='randy'></img>
+                    <img className='img-fluid mb-3 Gallery-img' style={{}} src={randy} alt='randy'></img>
                 </div>
                 <div className='col-lg-1'></div>
             </div >
@@ -118,7 +129,7 @@ const WhyJJ = () => {
                 </div>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-3'>
-                    <img className='img-fluid mb-3 Gallery-img' style={{}} src='https://scontent-msp1-1.xx.fbcdn.net/v/t1.18169-9/20621203_10209702149022886_667493836088780805_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=0debeb&_nc_ohc=noNWWCFyJJMAX9yg9Gz&_nc_ht=scontent-msp1-1.xx&oh=4d4a56254336f27a2715cc00bae5d476&oe=61402713' alt='mike'></img>
+                    <img className='img-fluid mb-3 Gallery-img' style={{}} src={mike} alt='mike'></img>
                 </div>
                 <div className='col-lg-1'></div>
             </div >
