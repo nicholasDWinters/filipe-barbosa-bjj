@@ -5,8 +5,8 @@ import facebook from './images/facebook_icon.png';
 
 const Footer = () => {
     return (
-        <div className='Footer mt-5 container-fluid'>
-            <h4 className='pt-3 ms-3'>FILIPE BARBOSA JIU JITSU</h4>
+        <div className='Footer mt-5 pt-5 pb-5 container-fluid'>
+            <h4 className='ms-3'>FILIPE BARBOSA JIU JITSU</h4>
             <h6 className='mt-2 ms-3'>912 WIS-136 E, STE.104</h6>
             <h6 className='ms-3'>BARABOO, WI 53913</h6>
             <h6 className='ms-3'>608.477.0021</h6>

@@ -19,7 +19,7 @@ const Contact = () => {
 
 
             <div className='row align-items-center'>
-                <div className='col-lg-6 paragraph-col mb-5'>
+                <div className='col-lg-6 paragraph-col mb-4 mt-3 mt-lg-0'>
                     <h1 className=''>FILIPE BARBOSA JIU JITSU</h1>
                     <h4 className="text-muted">912 WIS-136 E, STE. 104</h4>
                     <h4 className="text-muted">BARABOO, WI 53913</h4>

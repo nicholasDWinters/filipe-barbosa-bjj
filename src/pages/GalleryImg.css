@@ -5,3 +5,13 @@
 .Gallery-img:hover {
     opacity: .80;
 }
+
+.galleryVideo {
+    display: none;
+}
+
+@media (min-width: 576px) { 
+    .galleryVideo {
+        display: block;
+    }
+}

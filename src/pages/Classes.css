@@ -5,3 +5,15 @@
 .Classes-img:hover {
     opacity: .80;
 }
+
+
+.changeDisplay {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .changeDisplay {
+
+        display: block
+    }
+}
