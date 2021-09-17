@@ -1,3 +1,3 @@
 ## Filipe Barbosa Jiu Jitsu Website
 
-#### https://bjj-wisconsin.herokuapp.com/
+#### https://master.d23miaqetu9du5.amplifyapp.com/about-us
