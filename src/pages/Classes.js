@@ -6,14 +6,14 @@ import giClass from '../images/giClass.jpg';
 import nogiLineup from '../images/nogiLineup.jpg';
 import kidClass from '../images/kidClass.jpg';
 import womensKickboxing from '../images/womensKickboxingClass.jpg';
-import willNickKick from '../images/willNickKick.jpg';
+import nickMatias from '../images/nickMatias.jpg';
 
 const Classes = () => {
     const gi = `${giClass}`;
     const nogi = `${nogiLineup}`;
     const kids = `${kidClass}`;
     const kickboxing = `${womensKickboxing}`;
-    const willNick = `${willNickKick}`;
+    const nickMatiasPic = `${nickMatias}`;
 
     let classes = [{
         type: 'GI JIU JITSU',
@@ -50,7 +50,7 @@ const Classes = () => {
     {
         type: 'MMA',
         description: 'Mixed Martial Arts classes are more fight-oriented, with instruction geared towards Muay Thai, Jiu Jitsu, kickboxing, and wrestling techniques. Classes typically involve a short warmup or stretch, followed by technique instruction with drilling to follow. Students gain a further understanding of how to defend themselves in a combative situation.',
-        imageURL: willNick,
+        imageURL: nickMatiasPic,
         videoURL: null,
         title: 'mma training',
         videoHeight: null

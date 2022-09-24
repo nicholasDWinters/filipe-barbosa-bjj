@@ -2,16 +2,11 @@
 #navbarNavAltMarkup a:hover {
     
     color:rgb(98, 189,250);
-    font-size: 1.2em;
-    font-weight: bold;
     text-decoration: none;
     
 }
 
 #navbarNavAltMarkup a.active {
-    font-weight: bold;
-    font-size: 1.2em;
-    
     color:rgb(98, 189, 250);
     
 }
@@ -24,6 +19,7 @@ font-size: 1.1em;
 #brand {
     font-size: 1.5em;
     color:rgb(35, 167, 255);
+    font-weight: bold;
 }
 
 button {

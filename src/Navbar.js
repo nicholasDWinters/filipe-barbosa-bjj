@@ -12,7 +12,11 @@ const Navbar = () => {
 
     function changeExpand() {
         setIsExpanded(false);
-
+        window.scroll({
+            top: 0, 
+            left: 0, 
+            behavior: 'smooth' 
+           });
     }
 
     function expand() {
@@ -34,7 +38,7 @@ const Navbar = () => {
                         <NavLink onClick={() => changeExpand()} className='nav-item me-4 nav-link' exact to='/why-jj'>Why Jiu Jitsu?</NavLink>
                         <NavLink onClick={() => changeExpand()} className='nav-item me-4 nav-link' exact to='/classes'>Classes</NavLink>
                         <NavLink onClick={() => changeExpand()} className='nav-item me-4 nav-link' exact to='/schedule'>Schedule</NavLink>
-                        <NavLink onClick={() => changeExpand()} className='nav-item me-4 nav-link' exact to='/seminars-promotions'>Seminars / Promotions</NavLink>
+                        <NavLink onClick={() => changeExpand()} className='nav-item me-4 nav-link' exact to='/seminars-promotions'>Events</NavLink>
                         <NavLink onClick={() => changeExpand()} className='nav-item nav-link' exact to='/gallery'>Gallery</NavLink>
 
                     </ul>

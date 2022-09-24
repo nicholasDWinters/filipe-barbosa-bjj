@@ -38,18 +38,18 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='row align-items-center mt-5 justify-content-evenly'>
+            <div className='row mt-5 justify-content-evenly'>
                 <div className='col-lg-5 paragraph-col mt-3'>
                     <h1 className=''>RANDY IRELAND</h1>
                     <h4 className="text-muted">Instructor, Purple Belt</h4>
-                    <p className='paragraph about'>Randy began training mid 2018 and currently hold the rank of purple belt under Filipe Barbosa. Hey enjoys bringing the knowledge and skills from his career as a Corporate Trainer onto the mats by helping his training partners grow and develop their skills. His goal in training is to improve his physical and mental health and be the best training partner he can be for his fellow BJJ practitioners. Outside of the gym, Randy is a proud dog dad, lucky husband to an amazing wife, and a strength and conditioning enthusiast.</p>
+                    <p className='paragraph about'>Randy began training mid 2018 and currently holds the rank of purple belt under Filipe Barbosa. He enjoys bringing the knowledge and skills from his career as a Corporate Trainer onto the mats by helping his training partners grow and develop their skills. His goal in training is to improve his physical and mental health and be the best training partner he can be for his fellow BJJ practitioners. Outside of the gym, Randy is a proud dog dad, lucky husband to an amazing wife, and a strength and conditioning enthusiast.</p>
                     <img className='Home-img img-fluid mb-5 mb-lg-0' src={randy} alt='randy'></img>
                 </div>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-5 paragraph-col mt-3'>
                     <h1 className=''>NICK WINTERS</h1>
                     <h4 className="text-muted">Instructor, Purple Belt</h4>
-                    <p className='paragraph about'>Description TBD</p>
+                    <p className='paragraph about'>Nick has always been a fitness enthusiast, and began training in 2019 as a way to increase his functional strength and mobility. Now, martial arts have become a massive part of his lifestyle, and he enjoys sharing his knowledge with fellow students under Professor Filipe Barbosa. Having been a golf professional, Nick is no stranger to competition, and enjoys the challenge of competing in both BJJ and MMA. He hopes to see you on the mats!</p>
                     <img className='Home-img img-fluid' src={nick} alt='nick'></img>
                 </div>
 
