@@ -1,12 +1,14 @@
 import React from 'react';
 import cristianoHeadshot from '../images/cristianoHeadshot.jpg';
 import filipeHeadshot from '../images/filipeHeadshot.jpg';
-import willHeadshot from '../images/willHeadshot.jpg';
+import randyHeadshot from '../images/randyHeadshot2.jpg';
+import nickHeadshot from '../images/nickHeadshot.png';
 
 const About = () => {
     const cristiano = `${cristianoHeadshot}`;
     const filipe = `${filipeHeadshot}`;
-    const will = `${willHeadshot}`;
+    const randy = `${randyHeadshot}`;
+    const nick = `${nickHeadshot}`;
 
     return (
         <div className='container'>
@@ -37,16 +39,32 @@ const About = () => {
             </div>
 
             <div className='row align-items-center mt-5 justify-content-evenly'>
-                <div className='col-lg-5 paragraph-col'>
-                    <h1 className=''>WILLIAM KEMP</h1>
-                    <h4 className="text-muted">Instructor, Brown Belt</h4>
-                    <p className='paragraph about'>I’ve been interested in all martial arts since a very young age, but never had the opportunity to properly train. Once I was old enough to afford my own classes, I began training everything and anything I could find. I found gym’s specializing in Karate, Jeet-Kune-Do, Escrima, etc. Doing my research, I found Brazilian Jiu-Jitsu to be the most complete of all martial-arts. Fortune smiled on me, as I was able to find Filipe Barbosa and his academy. Training Jiu-Jitsu was something I knew I wanted to do for life. I’ve been training Brazilian Jiu-Jitsu going on seven years, Muay-Thai, and some MMA for four years under Professor Barbosa. Brazilian Jiu-Jitsu has not only shaped the martial artist I practice to be, but also the man.</p></div>
-                <div className='col-lg-1'></div>
-
-                <div className='col-lg-5 mt-3 mt-lg-0'>
-                    <img className='Home-img img-fluid' src={will} alt='will'></img>
+                <div className='col-lg-5 paragraph-col mt-3'>
+                    <h1 className=''>RANDY IRELAND</h1>
+                    <h4 className="text-muted">Instructor, Purple Belt</h4>
+                    <p className='paragraph about'>Randy began training mid 2018 and currently hold the rank of purple belt under Filipe Barbosa. Hey enjoys bringing the knowledge and skills from his career as a Corporate Trainer onto the mats by helping his training partners grow and develop their skills. His goal in training is to improve his physical and mental health and be the best training partner he can be for his fellow BJJ practitioners. Outside of the gym, Randy is a proud dog dad, lucky husband to an amazing wife, and a strength and conditioning enthusiast.</p>
+                    <img className='Home-img img-fluid mb-5 mb-lg-0' src={randy} alt='randy'></img>
                 </div>
+                <div className='col-lg-1'></div>
+                <div className='col-lg-5 paragraph-col mt-3'>
+                    <h1 className=''>NICK WINTERS</h1>
+                    <h4 className="text-muted">Instructor, Purple Belt</h4>
+                    <p className='paragraph about'>Description TBD</p>
+                    <img className='Home-img img-fluid' src={nick} alt='nick'></img>
+                </div>
+
             </div>
+            <div className='row align-items-center mt-5 justify-content-evenly'>
+                <div className='col-lg-5'>
+                    
+                </div>
+                <div className='col-lg-1'></div>
+                <div className='col-lg-5'>
+                    
+                </div>
+
+            </div>
+               
         </div>
     )
 }
