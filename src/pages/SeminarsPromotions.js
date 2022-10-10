@@ -16,7 +16,7 @@ const SeminarsPromotions = () => {
     const adoptCop = `${adoptACopFlag}`;
     return (
         <div className='container'>
-            <h1 className='mt-4 display-3'>Seminars / Promotions</h1>
+            <h1 className='mt-4 display-3'>Events</h1>
             <div className='row align-items-center mt-5'>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-4 paragraph-col'>
