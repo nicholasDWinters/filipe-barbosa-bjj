@@ -38,7 +38,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='row mt-5 justify-content-evenly'>
+            {/* <div className='row mt-5 justify-content-evenly'>
                 <div className='col-lg-5 paragraph-col mt-3'>
                     <h1 className=''>RANDY IRELAND</h1>
                     <h4 className="text-muted">Instructor, Purple Belt</h4>
@@ -63,7 +63,7 @@ const About = () => {
                     
                 </div>
 
-            </div>
+            </div> */}
                
         </div>
     )
