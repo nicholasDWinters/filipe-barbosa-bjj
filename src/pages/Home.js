@@ -27,7 +27,7 @@ const Home = () => {
 
                 <div className='col-lg-5 paragraph-col'>
                     <h1 className='mb-4'>OUR FACILITY</h1>
-                    <h5 className='paragraph about text-muted'>Opening in 2020, our awesome new training facility is conveniently located 5 minutes from downtown Baraboo, and only a 15 minute drive from Sauk City! The beautifully designed gym features brand new FUJI training mats and punching bags, providing plenty of space for our ever-growing academy.</h5></div>
+                    <h5 className='paragraph about text-muted'>Opening in 2020, our awesome new training facility is conveniently located 5 minutes from downtown Baraboo, and only a 20 minute drive from Sauk City! The beautifully designed gym features brand new FUJI training mats and punching bags, providing plenty of space for our ever-growing academy.</h5></div>
 
                 <div className='col-lg-5 mt-3 mt-lg-0'>
                     <img className='Home-img img-fluid' src={punchingBags} alt='punching bags'></img>
