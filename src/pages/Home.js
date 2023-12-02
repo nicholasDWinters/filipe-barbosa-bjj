@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import './Home.css';
+import Form from '../Form.js';
 import filipeArmbarConnor from '../images/filipeArmbarConnor.jpg';
 import gymPunchingBags from '../images/gymPunchingBags.jpg';
 import yourNewHome from '../images/yourNewHome.jpg';
@@ -9,8 +10,19 @@ const Home = () => {
     const filipeArmbar = `${filipeArmbarConnor}`;
     const punchingBags = `${gymPunchingBags}`;
     const newHome = `${yourNewHome}`;
+
     return (
         <div className='container'>
+            {/* <div className='row align-items-top justify-content-evenly mt-5'>
+                <div className="col-lg-5 paragraph-col">
+                <h1 className='mb-4'>NEED MORE INFORMATION?</h1>
+                <h5 className='paragraph about text-muted'>Interested in trying jiu jitsu? Want to schedule a self defense seminar? Reach out to us to learn more.</h5>
+               
+                </div>
+                <div className="col-lg-5 paragraph-col">
+            <Form formType={'home'}/>
+                </div>
+            </div> */}
             <div className='row align-items-center justify-content-evenly mt-5'>
 
                 <div className='col-lg-5 paragraph-col'>
