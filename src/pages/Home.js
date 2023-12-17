@@ -13,21 +13,27 @@ const Home = () => {
 
     return (
         <div className='container'>
-            {/* <div className='row align-items-top justify-content-evenly mt-5'>
-                <div className="col-lg-5 paragraph-col">
-                <h1 className='mb-4'>NEED MORE INFORMATION?</h1>
-                <h5 className='paragraph about text-muted'>Interested in trying jiu jitsu? Want to schedule a self defense seminar? Reach out to us to learn more.</h5>
-               
-                </div>
-                <div className="col-lg-5 paragraph-col">
-            <Form formType={'home'}/>
-                </div>
-            </div> */}
             <div className='row align-items-center justify-content-evenly mt-5'>
+                <div className='col-lg-5 paragraph-col'>
+                    <h1 className='mb-2'>READY TO START YOUR JOURNEY?</h1>
+                    <h5 className='paragraph about text-muted'>Interested in trying jiu jitsu? Want to schedule a self defense seminar? Reach out to us to learn more.</h5>
+                    <Form formType={'home'}/>
+                </div>
 
+
+                <div className='col-lg-5 mt-3 mt-lg-0'>
+                    <img className='Home-img img-fluid' src={filipeArmbar} alt='Filipe armbar'></img>
+                </div>
+
+            </div>
+
+            <div className='row align-items-center justify-content-evenly mt-5'>
                 <div className='col-lg-5 paragraph-col'>
                     <h1 className='mb-4'>TOP TIER JIU JITSU INSTRUCTION</h1>
-                    <h5 className='paragraph about text-muted'>Filipe Barbosa Brazilian Jiu Jitsu Academy was first opened in 2009 and has been serving the Baraboo community since then. Since its inception, it has grown in both attendance and facility. The gym now offers more than 15 classes per week between adult and children’s classes.  These classes include Brazilian Jiu Jitsu, Muay Thai, and Cardio Kickboxing. Classes are designed for participants of all levels. Further, the gym now offers periodical women’s self defense seminars and helps train several local law enforcement agencies.</h5></div>
+                    <h5 className='paragraph about text-muted'>Filipe Barbosa Brazilian Jiu Jitsu Academy was first opened in 2009 and has been serving the Baraboo community since then. Since its inception, it has grown in both attendance and facility. The gym now offers more than 15 classes per week between adult and children’s classes.  These classes include Brazilian Jiu Jitsu, Muay Thai, and Cardio Kickboxing. Classes are designed for participants of all levels. Further, the gym now offers periodical women’s self defense seminars and helps train several local law enforcement agencies.</h5>
+                    
+                </div>
+
 
                 <div className='col-lg-5 mt-3 mt-lg-0'>
                     <img className='Home-img img-fluid' src={filipeArmbar} alt='Filipe armbar'></img>
