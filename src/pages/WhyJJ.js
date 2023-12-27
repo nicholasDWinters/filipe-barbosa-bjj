@@ -48,7 +48,7 @@ const WhyJJ = () => {
                 </div>
                 <div className='col-lg-5 ps-3'>
                 <h5 className='paragraph about text-muted'>Interested in trying jiu jitsu? Want to schedule a free trial class? Reach out to us to learn more.</h5>
-                    <Form formType={'trialClass'}/>
+                    <Form formType={'trial class'}/>
 
                 </div>
 

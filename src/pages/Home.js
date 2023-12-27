@@ -68,7 +68,7 @@ const Home = () => {
                 <div className='col-lg-5 paragraph-col'>
                     <h1 className='mb-2'>READY TO START YOUR JOURNEY?</h1>
                     <h5 className='paragraph about text-muted'>Interested in trying jiu jitsu? Want to schedule a free trial class? Reach out to us to learn more.</h5>
-                    <Form formType={'trialClass'}/>
+                    <Form formType={'trial class'}/>
                 </div>
 
 

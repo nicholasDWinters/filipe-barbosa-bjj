@@ -32,7 +32,7 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-5">
                 <h5 className='paragraph about text-muted mt-2'>Have a question? Interested in trying jiu jitsu? Reach out to us to learn more!</h5>
-                    <Form formType={'generalInfo'}/>
+                    <Form formType={'general info'}/>
                 </div>
                 <div className="row align-items-center">
                 <div className='col-lg-11'>
