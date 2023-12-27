@@ -2,7 +2,9 @@ import React from 'react';
 import instagram from '../images/instagram_icon.png';
 import facebook from '../images/facebook_icon.png';
 import messenger from '../images/messenger_icon.png';
+import contact from '../images/contact.jpg';
 // import API_KEY from '../api';
+import Form from '../Form';
 import './Contact.css';
 
 
@@ -12,6 +14,7 @@ const Contact = () => {
 
     // const KEY = process.env.API_KEY;
     let url = `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJpe9wKhxCB4gRQBEHVjWw-uI&key=${KEY}`;
+    const contactPic = `${contact}`;
 
     return (
         <div className='container'>
@@ -33,6 +36,17 @@ const Contact = () => {
                     <a href='https://www.messenger.com/t/190576607652167/?messaging_source=source%3Apages%3Amessage_shortlink' className='btn btn-outline-primary mt-3' target='_blank' rel='noreferrer'><img src={messenger} alt="messenger" width="45" height="45" className="d-inline-block me-1"></img>Chat with us on Messenger</a>
 
                 </div>
+                <div className="col-lg-5">
+                <h5 className='paragraph about text-muted mt-2'>Have a question? Interested in trying jiu jitsu? Reach out to us to learn more!</h5>
+                    <Form formType={'generalInfo'}/>
+                </div>
+                <div className="row align-items-center">
+
+
+                <div className='col-lg-5'>
+                <img className='img-fluid' src={contact} alt='team on competition podium'></img>
+                </div>
+                <div className='col-lg-1'></div>
                 <div className='col-lg-5'>
                     <iframe title='map around academy'
                         width="100%"
@@ -41,6 +55,7 @@ const Contact = () => {
                         loading="lazy"
                         src={url}>
                     </iframe>
+                </div>
                 </div>
             </div>
         </div>

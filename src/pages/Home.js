@@ -4,10 +4,63 @@ import './Home.css';
 import Form from '../Form.js';
 import filipeArmbarConnor from '../images/filipeArmbarConnor.jpg';
 import warmUps from '../images/warmups.jpg';
+import './Classes.css';
+import Class from './Class';
+import nogiLineup from '../images/nogiLineup.jpg';
+import kidClass from '../images/kidClass.jpg';
+import womensKickboxing from '../images/womensKickboxingClass.jpg';
+import nickMatias from '../images/nickMatias.jpg';
+import giClass from '../images/giClass.jpg';
 
 const Home = () => {
     const filipeArmbar = `${filipeArmbarConnor}`;
     const formPic = `${warmUps}`;
+    const nogi = `${nogiLineup}`;
+    const kids = `${kidClass}`;
+    const kickboxing = `${womensKickboxing}`;
+    const nickMatiasPic = `${nickMatias}`;
+    const giPic = `${giClass}`;
+
+    let classes = [{
+        type: 'GI JIU JITSU',
+        description: `The foundation of Brazilian Jiu Jitsu. Each GI class starts off with a 10 minute warm-up, followed by technique instruction. Fundamentals classes involve instruction based around self-defense and basic techniques. Advanced classes typically showcase a new technique, followed by 'rolling' or light sparring with a partner.`,
+        imageURL: giPic,
+        videoURL: null,
+        title: 'gi class',
+        videoHeight: null
+    },
+    {
+        type: 'NOGI JIU JITSU',
+        description: `Jiu Jitsu without the grips! A greater emphasis is placed on wrestling in this aspect of Jiu Jitsu, as NOGI presents a challenge in establishing control over your partner. Each NOGI class starts with a 10 minute warm up, followed by technique instruction, drilling, and 'rolling' or sparring.`,
+        imageURL: nogi,
+        videoURL: null,
+        title: 'nogi class',
+        videoHeight: null
+    },
+    {
+        type: 'KID - JITSU',
+        description: 'An awesome way for your child to learn self defense, self confidence, and self respect! Each class focuses on Jiu Jitsu technique and movements, all while getting a ton of exercise! Respect, perseverance, honesty, and humilty are the core values we instill in every student.',
+        imageURL: kids,
+        videoURL: null,
+        title: 'kids class',
+        videoHeight: null
+    },
+    {
+        type: 'WOMENS KICKBOXING',
+        description: 'A group fitness class that combines martial arts techniques with fast paced cardio. Learn to defend yourself, and get a great workout. Never boring. Never the same.',
+        imageURL: kickboxing,
+        videoURL: null,
+        title: 'womens kickboxing',
+        videoHeight: null
+    },
+    {
+        type: 'MMA',
+        description: 'Mixed Martial Arts classes are more fight-oriented, with instruction geared towards Muay Thai, Jiu Jitsu, kickboxing, and wrestling techniques. Classes typically involve a short warmup or stretch, followed by technique instruction with drilling to follow. Students gain a further understanding of how to defend themselves in a combative situation.',
+        imageURL: nickMatiasPic,
+        videoURL: null,
+        title: 'mma training',
+        videoHeight: null
+    }]
 
     return (
         <div className='container'>
@@ -38,70 +91,9 @@ const Home = () => {
                 </div>
 
             </div>
-
-            {/* <div className='row align-items-center justify-content-evenly mt-5'>
-
-                <div className='col-lg-5 paragraph-col'>
-                    <h1 className='mb-4'>OUR FACILITY</h1>
-                    <h5 className='paragraph about text-muted'>Opening in 2020, our awesome new training facility is conveniently located 5 minutes from downtown Baraboo, and only a 20 minute drive from Sauk City! The beautifully designed gym features brand new FUJI training mats and punching bags, providing plenty of space for our ever-growing academy.</h5></div>
-
-                <div className='col-lg-5 mt-3 mt-lg-0'>
-                    <img className='Home-img img-fluid' src={punchingBags} alt='punching bags'></img>
-                </div>
-            </div> */}
-{/* 
-            <div className='row align-items-center justify-content-evenly mt-5'>
-
-                <div className='col-lg-5 paragraph-col'>
-                    <h1 className='mb-4'>YOUR NEW HOME</h1>
-                    <h5 className='paragraph about text-muted'>Become apart of our Jiu Jitsu family! Meet new friends, learn to protect yourself and your family, and be more confident by learning martial arts from Owner & Head Instructor, Filipe Barbosa.</h5></div>
-
-                <div className='col-lg-5 mt-3 mt-lg-0'>
-                    <img className='Home-img img-fluid' src={newHome} alt='group pic'></img>
-                </div>
-            </div> */}
-
-<div className='container'>
-            <div className='container'>
-                <div className='row mt-4 justify-content-evenly align-items-center'>
-
-                    <div className='col-lg-6 paragraph-col ps-lg-5 ps-3'>
-                        <h1 className='mt-3 day'>MONDAY</h1>
-
-                        <h4 className='Schedule-paragraph text-muted'>6AM - 7AM <span className='ms-4 Schedule-span d-block d-sm-inline'>Women's Kickboxing</span></h4>
-                        <h4 className='Schedule-paragraph text-muted'>5PM - 6PM <span className='ms-4 Schedule-span d-block d-sm-inline'>Kid - Jitsu</span></h4>
-                        <h4 className='Schedule-paragraph text-muted'>6PM - 7PM <span className='ms-4 Schedule-span d-block d-sm-inline'>GI BJJ Fundamentals</span></h4>
-                        <h4 className='Schedule-paragraph text-muted mb-3'>7PM - 8PM <span className='ms-4 Schedule-span d-block d-sm-inline'>NOGI Jiu Jitsu</span></h4>
-
-                        <h1 className='mt-5 day'>TUESDAY</h1>
-                        <h4 className='Schedule-paragraph text-muted'>6PM - 7PM <span className='ms-4 Schedule-span d-block d-sm-inline'>GI BJJ Fundamentals</span></h4>
-                        <h4 className='Schedule-paragraph text-muted mb-3'>7PM - 8PM <span className='ms-4 Schedule-span d-block d-sm-inline'>GI BJJ Advanced</span></h4>
-
-                        <h1 className='mt-5 day'>WEDNESDAY</h1>
-                        <h4 className='Schedule-paragraph text-muted'>6AM - 7AM <span className='ms-4 Schedule-span d-block d-sm-inline'>Women's Kickboxing</span></h4>
-                        <h4 className='Schedule-paragraph text-muted'>5PM - 6PM <span className='ms-4 Schedule-span d-block d-sm-inline'>Kid - Jitsu</span></h4>
-                        <h4 className='Schedule-paragraph text-muted'>6PM - 7PM <span className='ms-4 Schedule-span d-block d-sm-inline'>NOGI Jiu Jitsu</span></h4>
-                        <h4 className='Schedule-paragraph text-muted'>7PM - 8PM <span className='ms-4 Schedule-span d-block d-sm-inline'>MMA</span></h4>
-
-                    </div>
-
-                    <div className='col-lg-6 paragraph-col ps-lg-5'>
-                        <h1 className='mt-5 day'>THURSDAY</h1>
-                        <h4 className='Schedule-paragraph text-muted'>6PM - 7PM <span className='ms-4 Schedule-span d-block d-sm-inline'>GI BJJ Fundamentals</span></h4>
-
-                        <h4 className='Schedule-paragraph text-muted'>7PM - 8PM <span className='ms-4 Schedule-span d-block d-sm-inline'>GI BJJ Advanced</span></h4>
-
-                        <h1 className='mt-5 day'>FRIDAY</h1>
-                        <h4 className='Schedule-paragraph text-muted'>6AM - 7AM <span className='ms-4 Schedule-span d-block d-sm-inline'>Women's Kickboxing</span></h4>
-                        <h4 className='Schedule-paragraph text-muted'>5PM - 6PM <span className='ms-4 Schedule-span d-block d-sm-inline'>Kid - Jitsu</span></h4>
-                        <h4 className='Schedule-paragraph text-muted'>6PM - 7PM <span className='ms-4 Schedule-span d-block d-sm-inline'>MMA</span></h4>
-
-                    </div>
-
-                </div >
-            </div>
-
-        </div >
+            {classes.map(clss => <Class clss={clss} key={clss.type} />)}
+  
+        
 
         </div>
 

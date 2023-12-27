@@ -37,7 +37,7 @@ const SeminarsPromotions = () => {
             <div className='row align-items-center mt-5'>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-4 paragraph-col'>
-                    <h1 className='mb-2'>WANT TO LEARN MORE?</h1>
+                    <h1 className='mb-2'>INTERESTED?</h1>
                     <h5 className='paragraph about text-muted'>Interested in scheduling a seminar with Filipe for your office or gym? Reach out to learn more.</h5>
                     <Form formType={'seminar'}/>
                 </div>

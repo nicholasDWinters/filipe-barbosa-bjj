@@ -2,10 +2,10 @@ import React from 'react';
 import cristianoHeadshot from '../images/cristianoHeadshot.jpg';
 import filipeHeadshot from '../images/filipeHeadshot.jpg';
 import nickRandy from '../images/nickRandy.jpg';
+import Form from '../Form';
 
 
 const About = () => {
-    const cristiano = `${cristianoHeadshot}`;
     const filipe = `${filipeHeadshot}`;
     const assistants = `${nickRandy}`;
    
@@ -22,6 +22,8 @@ const About = () => {
                 <div className='col-lg-1'></div>
                 <div className='col-lg-5 mt-3 mt-lg-0'>
                     <img className='Home-img img-fluid' src={filipe} alt='filipe'></img>
+                    <h5 className='paragraph about text-muted mt-3'>Interested in taking private lessons with Filipe? Reach out to get more info.</h5>
+                    <Form formType={'private'}/>
                 </div>
             </div>
 {/* 
