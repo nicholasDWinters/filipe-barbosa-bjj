@@ -63,7 +63,7 @@ const onSubmit = async (e) => {
           value={toSend.phone_number}
           onChange={handleChange}
       />
-      {formType === 'seminar' || formType === 'generalInfo' ?
+      {formType === 'seminar' || formType === 'general info' ?
       
       <textarea className='form-control mb-3'
           type='text'
