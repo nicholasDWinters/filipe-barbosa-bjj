@@ -23,7 +23,7 @@ const About = () => {
                 <div className='col-lg-5 mt-3 mt-lg-0'>
                     <img className='Home-img img-fluid' src={filipe} alt='filipe'></img>
                     <h5 className='paragraph about text-muted mt-3'>Interested in taking private lessons with Filipe? Reach out to get more info.</h5>
-                    <Form formType={'private'}/>
+                    <Form formType={'private lesson'}/>
                 </div>
             </div>
 {/* 
