@@ -63,6 +63,8 @@ const onSubmit = async (e) => {
           value={toSend.phone_number}
           onChange={handleChange}
       />
+      {formType === 'seminar' ?
+      
       <textarea className='form-control mb-3'
           type='text'
           rows='3'
@@ -70,7 +72,8 @@ const onSubmit = async (e) => {
           placeholder='Message'
           value={toSend.message}
           onChange={handleChange}
-      />
+      /> : ''
+      }
       <div className='d-grid'>
 <button className={showButton} type='submit'>Submit</button>
 <div className={showAlert} role="alert">

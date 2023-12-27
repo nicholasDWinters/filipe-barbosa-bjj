@@ -3,11 +3,13 @@ import '../App.css';
 import Reason from './Reason';
 import './GalleryImg.css';
 import selfDefenseReason from '../images/selfDefenseReason.jpg';
-import fitnessReason from '../images/fitnessReason.jpg';
+import fitnessReason from '../images/gallery6.jpg';
 import whitneyHeadshot from '../images/whitneyHeadshot.jpg';
 import barryHeadshot from '../images/barryHeadshot.jpg';
 import randyHeadshot from '../images/randyHeadshot.jpg';
 import mikeHeadshot from '../images/mikeHeadshot.jpg';
+import formPic from '../images/whybjj.jpg';
+import Form from '../Form';
 
 
 const WhyJJ = () => {
@@ -33,27 +35,27 @@ const WhyJJ = () => {
             'description': 'Be yourself and make lifelong friends. Welcome, this is your 2nd family.'
         }
     ];
-    const images = [`${selfDefenseReason}`, `${fitnessReason}`]
+    const images = [`${selfDefenseReason}`, `${fitnessReason}`];
     return (
         <div className='container'>
             <h1 className='mt-4 display-3'>Top Reasons to Practice Jiu Jitsu</h1>
-
-            <div className='row mt-5 justify-content-center align-items-center'>
+            
+            <div className='row mt-5 justify-content-evenly align-items-center'>
 
                 <div className='col-lg-5 ps-3'>
                     {reasons.slice(0, 2).map(reason => <Reason key={reason.reason} reason={reason} />)}
 
                 </div>
                 <div className='col-lg-5 ps-3'>
-
-                    {images.slice(0, 1).map(image => <img key={image} className='img-fluid Gallery-img mb-3' src={image} alt='jiu jitsu'></img>)}
+                <h5 className='paragraph about text-muted'>Interested in trying jiu jitsu? Want to schedule a free trial class? Reach out to us to learn more.</h5>
+                    <Form formType={'trialClass'}/>
 
                 </div>
 
 
             </div >
 
-            <div className='row mt-2 justify-content-center align-items-center'>
+            <div className='row mt-4 justify-content-evenly align-items-center'>
 
                 <div className='col-lg-5 ps-3'>
                     {reasons.slice(2).map(reason => <Reason key={reason.reason} reason={reason} />)}

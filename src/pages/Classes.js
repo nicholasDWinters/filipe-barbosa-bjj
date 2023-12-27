@@ -2,14 +2,12 @@ import React from 'react';
 import '../App.css';
 import './Classes.css';
 import Class from './Class';
-import giClass from '../images/giClass.jpg';
 import nogiLineup from '../images/nogiLineup.jpg';
 import kidClass from '../images/kidClass.jpg';
 import womensKickboxing from '../images/womensKickboxingClass.jpg';
 import nickMatias from '../images/nickMatias.jpg';
 
 const Classes = () => {
-    const gi = `${giClass}`;
     const nogi = `${nogiLineup}`;
     const kids = `${kidClass}`;
     const kickboxing = `${womensKickboxing}`;
@@ -18,7 +16,8 @@ const Classes = () => {
     let classes = [{
         type: 'GI JIU JITSU',
         description: `The foundation of Brazilian Jiu Jitsu. Each GI class starts off with a 10 minute warm-up, followed by technique instruction. Fundamentals classes involve instruction based around self-defense and basic techniques. Advanced classes typically showcase a new technique, followed by 'rolling' or light sparring with a partner.`,
-        imageURL: gi,
+        isForm: true,
+        imageURL: null,
         videoURL: null,
         title: 'gi class',
         videoHeight: null

@@ -6,6 +6,8 @@ import womensSelfDefense from '../images/womensSelfDefense.jpg';
 import copCarInFrontOfBuilding from '../images/copCarInFrontOfBuilding.jpg';
 import copInFrontOfBuilding from '../images/copInFrontOfBuilding.jpg';
 import adoptACopFlag from '../images/adoptACopFlag.jpg';
+import newSeminar from '../images/newSeminar.jpg';
+import Form from '../Form';
 
 
 const SeminarsPromotions = () => {
@@ -14,6 +16,7 @@ const SeminarsPromotions = () => {
     const copCar = `${copCarInFrontOfBuilding}`;
     const cop = `${copInFrontOfBuilding}`;
     const adoptCop = `${adoptACopFlag}`;
+    const formPic = `${newSeminar}`;
     return (
         <div className='container'>
             <h1 className='mt-4 display-3'>Events</h1>
@@ -29,6 +32,20 @@ const SeminarsPromotions = () => {
 
                 </div>
                 <div className='col-lg-1'></div>
+
+            </div>
+            <div className='row align-items-center mt-5'>
+                <div className='col-lg-1'></div>
+                <div className='col-lg-4 paragraph-col'>
+                    <h1 className='mb-2'>WANT TO LEARN MORE?</h1>
+                    <h5 className='paragraph about text-muted'>Interested in scheduling a seminar with Filipe for your office or gym? Reach out to learn more.</h5>
+                    <Form formType={'seminar'}/>
+                </div>
+                <div className='col-lg-1'></div>
+
+                <div className='col-lg-5 mt-3 mt-lg-0'>
+                    <img className='Home-img img-fluid' src={formPic} alt='seminar'></img>
+                </div>
 
             </div>
             <div className='row align-items-center justify-content-evenly mt-3'>

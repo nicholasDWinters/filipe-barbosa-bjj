@@ -3,30 +3,28 @@ import '../App.css';
 import './Home.css';
 import Form from '../Form.js';
 import filipeArmbarConnor from '../images/filipeArmbarConnor.jpg';
-import gymPunchingBags from '../images/gymPunchingBags.jpg';
-import yourNewHome from '../images/yourNewHome.jpg';
+import warmUps from '../images/warmups.jpg';
 
 const Home = () => {
     const filipeArmbar = `${filipeArmbarConnor}`;
-    const punchingBags = `${gymPunchingBags}`;
-    const newHome = `${yourNewHome}`;
+    const formPic = `${warmUps}`;
 
     return (
         <div className='container'>
             <div className='row align-items-center justify-content-evenly mt-5'>
                 <div className='col-lg-5 paragraph-col'>
                     <h1 className='mb-2'>READY TO START YOUR JOURNEY?</h1>
-                    <h5 className='paragraph about text-muted'>Interested in trying jiu jitsu? Want to schedule a self defense seminar? Reach out to us to learn more.</h5>
-                    <Form formType={'home'}/>
+                    <h5 className='paragraph about text-muted'>Interested in trying jiu jitsu? Want to schedule a free trial class? Reach out to us to learn more.</h5>
+                    <Form formType={'trialClass'}/>
                 </div>
 
 
                 <div className='col-lg-5 mt-3 mt-lg-0'>
-                    <img className='Home-img img-fluid' src={filipeArmbar} alt='Filipe armbar'></img>
+                    <img className='Home-img img-fluid' src={formPic} alt='jiu jitsu warmup'></img>
                 </div>
 
             </div>
-
+         
             <div className='row align-items-center justify-content-evenly mt-5'>
                 <div className='col-lg-5 paragraph-col'>
                     <h1 className='mb-4'>TOP TIER JIU JITSU INSTRUCTION</h1>
@@ -41,7 +39,7 @@ const Home = () => {
 
             </div>
 
-            <div className='row align-items-center justify-content-evenly mt-5'>
+            {/* <div className='row align-items-center justify-content-evenly mt-5'>
 
                 <div className='col-lg-5 paragraph-col'>
                     <h1 className='mb-4'>OUR FACILITY</h1>
@@ -50,8 +48,8 @@ const Home = () => {
                 <div className='col-lg-5 mt-3 mt-lg-0'>
                     <img className='Home-img img-fluid' src={punchingBags} alt='punching bags'></img>
                 </div>
-            </div>
-
+            </div> */}
+{/* 
             <div className='row align-items-center justify-content-evenly mt-5'>
 
                 <div className='col-lg-5 paragraph-col'>
@@ -61,9 +59,49 @@ const Home = () => {
                 <div className='col-lg-5 mt-3 mt-lg-0'>
                     <img className='Home-img img-fluid' src={newHome} alt='group pic'></img>
                 </div>
+            </div> */}
+
+<div className='container'>
+            <div className='container'>
+                <div className='row mt-4 justify-content-evenly align-items-center'>
+
+                    <div className='col-lg-6 paragraph-col ps-lg-5 ps-3'>
+                        <h1 className='mt-3 day'>MONDAY</h1>
+
+                        <h4 className='Schedule-paragraph text-muted'>6AM - 7AM <span className='ms-4 Schedule-span d-block d-sm-inline'>Women's Kickboxing</span></h4>
+                        <h4 className='Schedule-paragraph text-muted'>5PM - 6PM <span className='ms-4 Schedule-span d-block d-sm-inline'>Kid - Jitsu</span></h4>
+                        <h4 className='Schedule-paragraph text-muted'>6PM - 7PM <span className='ms-4 Schedule-span d-block d-sm-inline'>GI BJJ Fundamentals</span></h4>
+                        <h4 className='Schedule-paragraph text-muted mb-3'>7PM - 8PM <span className='ms-4 Schedule-span d-block d-sm-inline'>NOGI Jiu Jitsu</span></h4>
+
+                        <h1 className='mt-5 day'>TUESDAY</h1>
+                        <h4 className='Schedule-paragraph text-muted'>6PM - 7PM <span className='ms-4 Schedule-span d-block d-sm-inline'>GI BJJ Fundamentals</span></h4>
+                        <h4 className='Schedule-paragraph text-muted mb-3'>7PM - 8PM <span className='ms-4 Schedule-span d-block d-sm-inline'>GI BJJ Advanced</span></h4>
+
+                        <h1 className='mt-5 day'>WEDNESDAY</h1>
+                        <h4 className='Schedule-paragraph text-muted'>6AM - 7AM <span className='ms-4 Schedule-span d-block d-sm-inline'>Women's Kickboxing</span></h4>
+                        <h4 className='Schedule-paragraph text-muted'>5PM - 6PM <span className='ms-4 Schedule-span d-block d-sm-inline'>Kid - Jitsu</span></h4>
+                        <h4 className='Schedule-paragraph text-muted'>6PM - 7PM <span className='ms-4 Schedule-span d-block d-sm-inline'>NOGI Jiu Jitsu</span></h4>
+                        <h4 className='Schedule-paragraph text-muted'>7PM - 8PM <span className='ms-4 Schedule-span d-block d-sm-inline'>MMA</span></h4>
+
+                    </div>
+
+                    <div className='col-lg-6 paragraph-col ps-lg-5'>
+                        <h1 className='mt-5 day'>THURSDAY</h1>
+                        <h4 className='Schedule-paragraph text-muted'>6PM - 7PM <span className='ms-4 Schedule-span d-block d-sm-inline'>GI BJJ Fundamentals</span></h4>
+
+                        <h4 className='Schedule-paragraph text-muted'>7PM - 8PM <span className='ms-4 Schedule-span d-block d-sm-inline'>GI BJJ Advanced</span></h4>
+
+                        <h1 className='mt-5 day'>FRIDAY</h1>
+                        <h4 className='Schedule-paragraph text-muted'>6AM - 7AM <span className='ms-4 Schedule-span d-block d-sm-inline'>Women's Kickboxing</span></h4>
+                        <h4 className='Schedule-paragraph text-muted'>5PM - 6PM <span className='ms-4 Schedule-span d-block d-sm-inline'>Kid - Jitsu</span></h4>
+                        <h4 className='Schedule-paragraph text-muted'>6PM - 7PM <span className='ms-4 Schedule-span d-block d-sm-inline'>MMA</span></h4>
+
+                    </div>
+
+                </div >
             </div>
 
-
+        </div >
 
         </div>
 
