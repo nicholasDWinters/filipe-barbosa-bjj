@@ -50,8 +50,8 @@ const SeminarsPromotions = () => {
             </div>
             <div className='row align-items-center justify-content-evenly mt-3'>
                 <div className='col-lg-1'></div>
-                <div className='col-lg-4 changeDisplay mb-2'>
-                    <iframe title='wrestling seminar' src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F190576607652167%2Fvideos%2F2938527446464526%2F&show_text=false&width=267&t=0" width="294" height="524" style={{ border: 'none', overflow: 'hidden' }} scrolling="no" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                <div className='col-lg-4 mb-2'>
+                <div style={{padding:"177.78% 0 0 0",position:"relative"}}><iframe src="https://player.vimeo.com/video/898383118?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style={{position:"absolute", top:0, left:0, width:"100%", height:"100%"}} title="Jiu Jitsu Seminar"></iframe></div>
                 </div>
                 <div className='col-lg-1'></div>
 
