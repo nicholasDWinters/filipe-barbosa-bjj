@@ -43,6 +43,7 @@ const onSubmit = async (e) => {
     return (
       <form onSubmit={onSubmit} className='mt-3 mb-5'>
       <input className='form-control mb-3'
+          required
           type='text'
           name='from_name'
           placeholder='Name'
@@ -50,6 +51,7 @@ const onSubmit = async (e) => {
           onChange={handleChange}
       />
       <input className='form-control mb-3'
+          required
           type='email'
           name='reply_to'
           placeholder='Email'
@@ -57,7 +59,8 @@ const onSubmit = async (e) => {
           onChange={handleChange}
       />
       <input className='form-control mb-3'
-          type='text'
+          required
+          type='tel'
           name='phone_number'
           placeholder='Phone Number'
           value={toSend.phone_number}
