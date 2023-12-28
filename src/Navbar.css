@@ -26,6 +26,47 @@ button {
     color: black;
 }
 
+.wrapper {
+  position: relative;
+}
+
+.carousel {
+  background-color: rgba(98, 189, 250);
+  height: 50px;
+  display: none;
+}
+
+.carousel-inner {
+  padding-top: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+}
+
+.text {
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.text .name {
+  font-weight: 500;
+}
+
+@media (min-width: 900px) { 
+  .carousel {
+      display: block;
+  }
+}
+
 
 /* .dropdown-menu {
     background-color: #212529;
