@@ -10,7 +10,7 @@ import nogiLineup from '../images/nogiLineup.jpg';
 import kidClass from '../images/kidClass.jpg';
 import womensKickboxing from '../images/womensKickboxingClass.jpg';
 import nickMatias from '../images/nickMatias.jpg';
-import giClass from '../images/giClass.jpg';
+import giClass from '../images/jumbo2.jpg';
 
 const Home = () => {
     const filipeArmbar = `${filipeArmbarConnor}`;

@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import Schedule from './pages/Schedule';
 import SeminarsPromotions from './pages/SeminarsPromotions';
 import Footer from './Footer';
+import BookSeminar from './pages/BookSeminar';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route exact path='/classes'><Classes /></Route>
           <Route exact path='/schedule'><Schedule /></Route>
           <Route exact path='/seminars-promotions'><SeminarsPromotions /></Route>
+          <Route exact path='/book-seminar'><BookSeminar /></Route>
           <Route exact path='/gallery'><Gallery /></Route>
           <Route exact path='/contact'><Contact /></Route>
           <Route exact path='/'><Home /></Route>

@@ -7,17 +7,17 @@ img {
     width: 100%;
     display: flex;
     position: relative;
-    
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
    
   }
   
   .Jumbo-jumbo::before {
     content: '';
-    background-image: url('./images/cleanGym.jpg');
+    background-image: url('./images/jumbo3.png');
     background-size: cover;
     position: absolute;
-    background-position: 50% 44%;
+    background-position: 50%;
     top: 0;
     bottom: 0;
     right: 0;
@@ -33,7 +33,7 @@ img {
     font-weight: bold;
     letter-spacing: .6rem;
     color:rgb(35, 167, 255);
-    
+    max-width: 90%;
     text-shadow: 2px 2px black;
     
   }
@@ -41,4 +41,36 @@ img {
   .Jumbo-jumbo h1 span {
     text-shadow: 2px 2px white;
     color: black;
+  }
+
+  .Jumbo-jumbo button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: black;
+    font-weight: 500;
+    background-color: rgb(35, 167, 255);
+    border: none;
+    width: 250px;
+    align-self: flex-end;
+  }
+
+  @media screen and (max-width: 576px) {
+    .Jumbo-jumbo button {
+      position: absolute;
+      bottom: 10px;
+      width: 90%;
+      align-self: center;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .Jumbo-jumbo button {
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .Jumbo-jumbo button {
+      font-size: 12px;
+    }
   }
