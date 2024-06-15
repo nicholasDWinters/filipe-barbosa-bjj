@@ -23,7 +23,7 @@ const SeminarsPromotions = () => {
             <div className='row align-items-center mt-5'>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-4 paragraph-col'>
-                    <h1 className=''>Seminars</h1>
+                    <h1 className=''>SEMINARS</h1>
                     <h5 className='paragraph text-muted about'>We are proud to host many in-house seminars with champions of various martial arts backgrounds. Most recently, Evan Wick (2018 & 2019 All American Wrestler, UW Madison) visited us to improve our wrestling technique! We also host many Women's Self Defense seminars, and travel as a team to other seminars around the state to continue our learning!</h5></div>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-5 mt-3 mt-lg-0'>
