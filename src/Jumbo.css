@@ -1,8 +1,4 @@
-img {
-    max-height: 500px;
-  }
-  
-  .Jumbo-jumbo {
+.Jumbo-jumbo {
     height: 275px;
     width: 100%;
     display: flex;

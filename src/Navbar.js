@@ -40,12 +40,13 @@ const Navbar = () => {
                         <NavLink onClick={() => changeExpand()} className='nav-item me-4 nav-link' exact to='/classes'>Classes</NavLink>
                         <NavLink onClick={() => changeExpand()} className='nav-item me-4 nav-link' exact to='/schedule'>Schedule</NavLink>
                         <NavLink onClick={() => changeExpand()} className='nav-item me-4 nav-link' exact to='/seminars-promotions'>Events</NavLink>
+                        <NavLink onClick={() => changeExpand()} className='nav-item nav-link' exact to='/google-reviews'>Google Reviews</NavLink>
                         <NavLink onClick={() => changeExpand()} className='nav-item nav-link' exact to='/gallery'>Gallery</NavLink>
 
                     </ul>
                     <NavLink onClick={() => changeExpand()} className='nav-link nav-item ps-0 me-3' exact to='/contact'>Contact</NavLink>
 
-                    <div className="fb-messengermessageus" messenger_app_id='301920271682228' page_id='190576607652167' color="blue"></div>
+                    {/* <div className="fb-messengermessageus" messenger_app_id='301920271682228' page_id='190576607652167' color="blue"></div> */}
                 </div>
             </div>
         </nav>
