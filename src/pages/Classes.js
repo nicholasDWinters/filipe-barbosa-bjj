@@ -2,7 +2,6 @@ import React from 'react';
 import '../App.css';
 import './Classes.css';
 import Class from './Class';
-import nogiLineup from '../images/nogiLineup.jpg';
 import giClass from '../images/newGymGiClass.jpg'
 import kidClass from '../images/kidClass.jpg';
 import womensKickboxing from '../images/womensKickboxing.jpg';

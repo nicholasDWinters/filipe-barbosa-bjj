@@ -3,11 +3,9 @@ import '../App.css';
 import Reason from './Reason';
 import './GalleryImg.css';
 import selfDefenseReason from '../images/selfDefenseReason.jpg';
-import fitnessReason from '../images/gallery6.jpg';
 import barryHeadshot from '../images/barryHeadshot.jpg';
 import randyHeadshot from '../images/randyHeadshot.jpg';
 import mikeHeadshot from '../images/mikeHeadshot.jpg';
-import formPic from '../images/whybjj.jpg';
 import Form from '../Form';
 
 
@@ -33,7 +31,7 @@ const WhyJJ = () => {
             'description': 'Be yourself and make lifelong friends. Welcome, this is your 2nd family.'
         }
     ];
-    const images = [`${selfDefenseReason}`, `${fitnessReason}`];
+    const images = [`${selfDefenseReason}`];
     return (
         <div className='container'>
             <h1 className='mt-4 display-3'>Top Reasons to Practice Jiu Jitsu</h1>
@@ -61,7 +59,7 @@ const WhyJJ = () => {
                 </div>
                 <div className='col-lg-5 ps-3'>
 
-                    {images.slice(0,1).map(image => <img key={image} className='img-fluid Gallery-img mb-3' src={image} alt='jiu jitsu'></img>)}
+                    {images.slice(0).map(image => <img key={image} className='img-fluid Gallery-img mb-3' src={image} alt='jiu jitsu'></img>)}
 
                 </div>
 
