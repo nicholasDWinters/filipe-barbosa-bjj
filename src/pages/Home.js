@@ -6,16 +6,16 @@ import filipeArmbarConnor from '../images/filipeArmbarConnor.jpg';
 import warmUps from '../images/warmups.jpg';
 import './Classes.css';
 import Class from './Class';
-import nogiLineup from '../images/nogiLineup.jpg';
+import nogiClass from '../images/newGymNogiClass.png';
 import kidClass from '../images/kidClass.jpg';
-import womensKickboxing from '../images/womensKickboxingClass.jpg';
+import womensKickboxing from '../images/womensKickboxing.jpg';
 import nickMatias from '../images/nickMatias.jpg';
 import giClass from '../images/jumbo2.jpg';
 
 const Home = () => {
     const filipeArmbar = `${filipeArmbarConnor}`;
     const formPic = `${warmUps}`;
-    const nogi = `${nogiLineup}`;
+    const nogi = `${nogiClass}`;
     const kids = `${kidClass}`;
     const kickboxing = `${womensKickboxing}`;
     const nickMatiasPic = `${nickMatias}`;

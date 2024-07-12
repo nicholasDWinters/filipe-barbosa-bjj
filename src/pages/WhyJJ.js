@@ -4,7 +4,6 @@ import Reason from './Reason';
 import './GalleryImg.css';
 import selfDefenseReason from '../images/selfDefenseReason.jpg';
 import fitnessReason from '../images/gallery6.jpg';
-import whitneyHeadshot from '../images/whitneyHeadshot.jpg';
 import barryHeadshot from '../images/barryHeadshot.jpg';
 import randyHeadshot from '../images/randyHeadshot.jpg';
 import mikeHeadshot from '../images/mikeHeadshot.jpg';
@@ -13,7 +12,6 @@ import Form from '../Form';
 
 
 const WhyJJ = () => {
-    const whitney = `${whitneyHeadshot}`;
     const barry = `${barryHeadshot}`;
     const randy = `${randyHeadshot}`;
     const mike = `${mikeHeadshot}`;
@@ -63,34 +61,13 @@ const WhyJJ = () => {
                 </div>
                 <div className='col-lg-5 ps-3'>
 
-                    {images.slice(1).map(image => <img key={image} className='img-fluid Gallery-img mb-3' src={image} alt='jiu jitsu'></img>)}
+                    {images.slice(0,1).map(image => <img key={image} className='img-fluid Gallery-img mb-3' src={image} alt='jiu jitsu'></img>)}
 
                 </div>
 
 
             </div >
 
-            <div className='row mt-5 justify-content-center align-items-center'>
-
-
-                <div className='col-lg-5 ps-3'>
-                    <div>
-                        <h2 className=''>WHITNEY SAYS...</h2>
-                        <h5 className='text-muted mb-4 about paragraph'>'I started taking Jiu Jitsu classes to take on a new physical challenge after doing kickboxing for a year, and also knowing it is a great form of self defense. I continue to practice because it is an incredible feeling to face challenges in every class and come out stronger on the other side. Jiu-Jitsu has helped me build confidence and strength that I’m not sure I would have found elsewhere.'</h5>
-
-                    </div>
-
-                </div>
-                <div className='col-lg-1'></div>
-                <div className='col-lg-3'>
-                    <img className='img-fluid mb-3 Gallery-img' style={{}} src={whitney} alt='whitney'></img>
-
-
-                </div>
-                <div className='col-lg-1'></div>
-
-
-            </div >
             <div className='row mt-5 justify-content-center align-items-center'>
                 <div className='col-lg-5 ps-3'>
                     <div>

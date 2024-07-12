@@ -3,12 +3,13 @@ import '../App.css';
 import './Classes.css';
 import Class from './Class';
 import nogiLineup from '../images/nogiLineup.jpg';
+import giClass from '../images/newGymGiClass.jpg'
 import kidClass from '../images/kidClass.jpg';
-import womensKickboxing from '../images/womensKickboxingClass.jpg';
+import womensKickboxing from '../images/womensKickboxing.jpg';
 import nickMatias from '../images/nickMatias.jpg';
 
 const Classes = () => {
-    const nogi = `${nogiLineup}`;
+    const gi = `${giClass}`;
     const kids = `${kidClass}`;
     const kickboxing = `${womensKickboxing}`;
     const nickMatiasPic = `${nickMatias}`;
@@ -16,8 +17,8 @@ const Classes = () => {
     let classes = [{
         type: 'GI JIU JITSU',
         description: `The foundation of Brazilian Jiu Jitsu. Each GI class starts off with a 10 minute warm-up, followed by technique instruction. Fundamentals classes involve instruction based around self-defense and basic techniques. Advanced classes typically showcase a new technique, followed by 'rolling' or light sparring with a partner.`,
-        isForm: true,
-        imageURL: null,
+        isForm: false,
+        imageURL: gi,
         videoURL: null,
         title: 'gi class',
         videoHeight: null
@@ -25,7 +26,8 @@ const Classes = () => {
     {
         type: 'NOGI JIU JITSU',
         description: `Jiu Jitsu without the grips! A greater emphasis is placed on wrestling in this aspect of Jiu Jitsu, as NOGI presents a challenge in establishing control over your partner. Each NOGI class starts with a 10 minute warm up, followed by technique instruction, drilling, and 'rolling' or sparring.`,
-        imageURL: nogi,
+        isForm: true,
+        imageURL: null,
         videoURL: null,
         title: 'nogi class',
         videoHeight: null

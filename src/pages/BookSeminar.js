@@ -1,4 +1,4 @@
-import seminar1 from '../images/bookSeminar1.jpg';
+import seminar1 from '../images/womensSelfDefenseSeminar.jpg';
 import seminar2 from '../images/bookSeminar2.jpg';
 import seminar3 from '../images/bookSeminar3.jpg';
 import seminar4 from '../images/bookSeminar4.jpg';
