@@ -1,5 +1,4 @@
 import React from 'react';
-import cristianoHeadshot from '../images/cristianoHeadshot.jpg';
 import filipeHeadshot from '../images/filipeHeadshot.jpg';
 import nickRandy from '../images/nickRandy.jpg';
 import Form from '../Form';
