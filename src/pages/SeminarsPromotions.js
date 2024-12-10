@@ -2,7 +2,6 @@ import React from 'react';
 import '../App.css';
 import './Classes.css';
 import guillotineSeminar from '../images/guillotineSeminar.jpg';
-import womensSelfDefense from '../images/womensSelfDefense.jpg';
 import copCarInFrontOfBuilding from '../images/copCarInFrontOfBuilding.jpg';
 import copInFrontOfBuilding from '../images/copInFrontOfBuilding.jpg';
 import adoptACopFlag from '../images/adoptACopFlag.jpg';
@@ -12,7 +11,6 @@ import Form from '../Form';
 
 const SeminarsPromotions = () => {
     const guillotine = `${guillotineSeminar}`;
-    const womens = `${womensSelfDefense}`;
     const copCar = `${copCarInFrontOfBuilding}`;
     const cop = `${copInFrontOfBuilding}`;
     const adoptCop = `${adoptACopFlag}`;
@@ -47,19 +45,6 @@ const SeminarsPromotions = () => {
                     <img className='Home-img img-fluid' src={formPic} alt='seminar'></img>
                 </div>
 
-            </div>
-            <div className='row align-items-center justify-content-evenly mt-3'>
-                <div className='col-lg-1'></div>
-                <div className='col-lg-4 mb-2'>
-                <div style={{padding:"177.78% 0 0 0",position:"relative"}}><iframe src="https://player.vimeo.com/video/898383118?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style={{position:"absolute", top:0, left:0, width:"100%", height:"100%"}} title="Jiu Jitsu Seminar"></iframe></div>
-                </div>
-                <div className='col-lg-1'></div>
-
-                <div className='col-lg-6'>
-
-                    <img className='Classes-img changeDisplay img-fluid' src={womens} alt='womens self defense group pic'></img>
-                </div>
-                <div className='col-lg-1'></div>
             </div>
             <div className='row align-items-center mt-5'>
                 <div className='col-lg-1'></div>

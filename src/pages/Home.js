@@ -3,7 +3,6 @@ import '../App.css';
 import './Home.css';
 import Form from '../Form.js';
 import filipeArmbarConnor from '../images/filipeArmbarConnor.jpg';
-import filipeIntro from '../images/filipe_intro.mp4';
 import './Classes.css';
 import Class from './Class';
 import nogiClass from '../images/newGymNogiClass.png';
@@ -70,12 +69,9 @@ const Home = () => {
                     <Form formType={'trial class'}/>
                 </div>
 
-
                 <div className='col-lg-5 mt-3 mt-lg-0'>
-                <video width="100%" controls>
-  <source src={filipeIntro} type="video/mp4" />
+                <div style={{padding:"56.25% 0 0 0", position: "relative"}}><iframe src="https://player.vimeo.com/video/1038004796?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture;" style={{position: "absolute", top:0, left:0, width:"100%", height: "100%"}} title="Jiu Jitsu Intro"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-</video>
                 </div>
 
             </div>

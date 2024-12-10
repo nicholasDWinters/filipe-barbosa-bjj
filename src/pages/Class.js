@@ -15,11 +15,10 @@ const Class = ({ clss }) => {
 
                     <img className='Classes-img img-fluid' src={clss.imageURL} alt={clss.title}></img> :
                     '' }
+                    
                 {clss.videoURL ?
-                    <video width="100%" controls>
-                    <source src={clss.videoURL} type="video/mp4" />
-                  
-                  </video>
+                    <div style={{padding:"56.25% 0 0 0", position: "relative"}}><iframe src="https://player.vimeo.com/video/1038005843?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture;" style={{position: "absolute", top:0, left:0, width:"100%", height: "100%"}} title="Kids Class"></iframe></div>
+
                 : ''}
 
 
