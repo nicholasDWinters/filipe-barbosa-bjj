@@ -3,15 +3,15 @@ import '../App.css';
 import './Classes.css';
 import Class from './Class';
 import giClass from '../images/newGymGiClass.jpg'
-import kidClass from '../images/kidClass.jpg';
+import kidClass from '../images/filipe_juniors.mp4';
 import womensKickboxing from '../images/womensKickboxing.jpg';
 import nickMatias from '../images/nickMatias.jpg';
 
 const Classes = () => {
     const gi = `${giClass}`;
-    const kids = `${kidClass}`;
     const kickboxing = `${womensKickboxing}`;
     const nickMatiasPic = `${nickMatias}`;
+    const kids = `${kidClass}`;
 
     let classes = [{
         type: 'GI JIU JITSU',
@@ -34,10 +34,10 @@ const Classes = () => {
     {
         type: 'KID - JITSU',
         description: 'An awesome way for your child to learn self defense, self confidence, and self respect! Each class focuses on Jiu Jitsu technique and movements, all while getting a ton of exercise! Respect, perseverance, honesty, and humilty are the core values we instill in every student.',
-        imageURL: kids,
-        videoURL: null,
+        imageURL: null,
+        videoURL: kids,
         title: 'kids class',
-        videoHeight: null
+        videoHeight: null,
     },
     {
         type: 'WOMENS KICKBOXING',

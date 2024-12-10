@@ -3,7 +3,7 @@ import '../App.css';
 import './Home.css';
 import Form from '../Form.js';
 import filipeArmbarConnor from '../images/filipeArmbarConnor.jpg';
-import warmUps from '../images/warmups.jpg';
+import filipeIntro from '../images/filipe_intro.mp4';
 import './Classes.css';
 import Class from './Class';
 import nogiClass from '../images/newGymNogiClass.png';
@@ -14,7 +14,6 @@ import giClass from '../images/jumbo2.jpg';
 
 const Home = () => {
     const filipeArmbar = `${filipeArmbarConnor}`;
-    const formPic = `${warmUps}`;
     const nogi = `${nogiClass}`;
     const kids = `${kidClass}`;
     const kickboxing = `${womensKickboxing}`;
@@ -73,7 +72,10 @@ const Home = () => {
 
 
                 <div className='col-lg-5 mt-3 mt-lg-0'>
-                    <img className='Home-img img-fluid' src={formPic} alt='jiu jitsu warmup'></img>
+                <video width="100%" controls>
+  <source src={filipeIntro} type="video/mp4" />
+
+</video>
                 </div>
 
             </div>

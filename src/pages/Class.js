@@ -15,8 +15,11 @@ const Class = ({ clss }) => {
 
                     <img className='Classes-img img-fluid' src={clss.imageURL} alt={clss.title}></img> :
                     '' }
-                {clss.videUrl ?
-                    <iframe className='pt-5' title={clss.title} src={clss.videoURL} width="100%" height={clss.videoHeight} style={{ border: 'none', overflow: 'hidden' }} scrolling="no" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                {clss.videoURL ?
+                    <video width="100%" controls>
+                    <source src={clss.videoURL} type="video/mp4" />
+                  
+                  </video>
                 : ''}
 
 
